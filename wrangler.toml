@@ -112,7 +112,3 @@ enabled = true
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
-
-routes = [
-  { pattern = "api.chhatreshkhatri.com", custom_domain = true }
-]
