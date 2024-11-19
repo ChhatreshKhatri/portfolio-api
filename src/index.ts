@@ -19,10 +19,27 @@ export default {
 			} else {
 				resData = data.default ?? { error: 'Default content not found' };
 			}
+			// List of allowed origins
+			const allowedOrigins = [
+				'https://chhatreshkhatri.com',
+				'https://www.chhatreshkhatri.com',
+				'https://api.chhatreshkhatri.com',
+				'preview.portfolio-nextjs-6yf.pages.dev'
+			];
+
+			// Validate the origin against the allowed origins
+			const requestOrigin = req.headers.get('Origin');
+			const corsHeader = allowedOrigins.includes(requestOrigin ?? '') ? requestOrigin : '';
+
+			// Headers
 			const headers: Record<string, string> = {
 				'Content-Type': 'application/json',
-				'Access-Control-Allow-Origin': '*.chhatreshkhatri.com',
 			};
+
+			if (corsHeader) {
+				headers['Access-Control-Allow-Origin'] = corsHeader;
+			}
+
 			return new Response(JSON.stringify(resData), { headers });
 		} catch (error) {
 			console.error('Error processing request:', error);
