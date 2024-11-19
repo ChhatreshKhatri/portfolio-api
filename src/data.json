@@ -1,6 +1,4 @@
 {
-    "default":"Welcome to the api!",
-    "home": "aaa",
-    "about": "bbb",
-    "projects": "ccc"
+	"default": "Not Found",
+	"error": "Not Found"
 }

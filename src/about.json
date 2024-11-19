@@ -1,0 +1,209 @@
+{
+	"Content": {
+		"title": "Description",
+		"text": "Hi there! My name is Chhatresh Khatri and I'm a Full Stack developer with a passion for building modern and user-friendly websites and applications. I have experience working with a range of Tech Stack to create clean and modular code that follows industry best practices. In addition to my technical skills, I also have a keen eye for design and enjoy creating responsive and visually appealing websites. I'm learning about the latest trends in the tech industry. I'm a total go-getter and always bring my A-game, plus I'm super easy to talk to! I'm driven, self-motivated, and passionate about all things tech. Let's collaborate and create something extraordinary! Thanks for visiting my portfolio website!"
+	},
+	"Sections": [
+		{
+			"title": "Languages",
+			"skills": [
+				{
+					"name": "C",
+					"color": "#1563B1",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/C.svg"
+				},
+				{
+					"name": "C++",
+					"color": "#004488",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/C++.svg"
+				},
+				{
+					"name": "C#",
+					"color": "#512BD4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/CSharp.svg"
+				},
+				{
+					"name": "Java",
+					"color": "#437291",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Java.svg"
+				},
+				{
+					"name": "MySQL",
+					"color": "#00678c",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/MySQL.svg"
+				},
+				{
+					"name": "HTML5",
+					"color": "#E44D26",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/HTML.svg"
+				},
+				{
+					"name": "CSS3",
+					"color": "#1172B8",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/CSS.svg"
+				},
+				{
+					"name": "JavaScript",
+					"color": "#f7df1e",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/JavaScript.svg"
+				},
+				{
+					"name": "TypeScript",
+					"color": "#3178c6",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+				}
+			]
+		},
+		{
+			"title": "Framework & Libraries",
+			"skills": [
+				{
+					"name": ".NET",
+					"color": "#512BD4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
+				},
+				{
+					"name": "Angular",
+					"color": "#DD0031",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Angular.svg"
+				},
+				{
+					"name": "React",
+					"color": "#61DAFB",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "Next.js",
+					"color": "#000000",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "Astro",
+					"color": "#000000",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Astro.svg"
+				},
+				{
+					"name": "Node.js",
+					"color": "#339933",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Node.svg"
+				},
+				{
+					"name": "Express.js",
+					"color": "#000000",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
+				},
+				{
+					"name": "Bootstrap",
+					"color": "#7952B3",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Bootstrap.svg"
+				},
+				{
+					"name": "Tailwind CSS",
+					"color": "#38B2AC",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+				}
+			]
+		},
+
+		{
+			"title": "Tools",
+			"skills": [
+				{
+					"name": "MongoDB",
+					"color": "#47A248",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
+				},
+				{
+					"name": "Postman",
+					"color": "#FF6C37",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Postman.svg"
+				},
+				{
+					"name": "Git",
+					"color": "#F05032",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Git.svg"
+				},
+				{
+					"name": "GitHub",
+					"color": "#181717",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				},
+				{
+					"name": "Vercel",
+					"color": "#000000",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Vercel.svg"
+				},
+				{
+					"name": "Firebase",
+					"color": "#FFCA28",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Firebase.svg"
+				},
+				{
+					"name": "Figma",
+					"color": "#F24E1E",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Figma.svg"
+				},
+				{
+					"name": "Canva",
+					"color": "#00C4CC",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Canva.svg"
+				},
+				{
+					"name": "Gimp",
+					"color": "#5C5543",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Gimp.svg"
+				},
+				{
+					"name": "Cloudinary",
+					"color": "#F7F7F7",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Cloudinary.svg"
+				},
+				{
+					"name": "Cloudflare",
+					"color": "#F38020",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
+				},
+				{
+					"name": "Alibaba Cloud",
+					"color": "#FF6A0A",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+				},
+				{
+					"name": "Google Cloud",
+					"color": "#4285F4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GoogleCloud.svg"
+				},
+				{
+					"name": "Visual Studio",
+					"color": "#5C2D91",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/VisualStudio.svg"
+				},
+				{
+					"name": "VS Code",
+					"color": "#007ACC",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/VSCode.svg"
+				}
+			]
+		},
+		{
+			"title": "Operating Systems",
+			"skills": [
+				{
+					"name": "Windows",
+					"color": "#0078D6",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Windows.svg"
+				},
+				{
+					"name": "Linux",
+					"color": "#FCC624",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Linux.svg"
+				},
+				{
+					"name": "Ubuntu",
+					"color": "#E95420",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Ubuntu.svg"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"Content": {
+		"Title": "Projects",
+		"Description": "Here are some of the projects I've worked on."
+	},
+	"Projects": [
+		{
+			"Heading": "Ramaa Creations",
+			"SubHeading": "An e-commerce Jewellery website",
+			"Description": "Built with Alicms tool at Alibaba Cloud Low-Code Development Contest 2022. Achieved second position out of 2043 participants.",
+			"Image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
+			"Links": [
+				{
+					"Type": "Blog Link",
+					"Url": "https://www.alibabacloud.com/blog/598812",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg",
+					"Pos": "0"
+				},
+				{
+					"Type": "Winner List",
+					"Url": "https://www.alibabacloud.com/blog/598754",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg",
+					"Pos": "1"
+				}
+			],
+			"Order": "odd"
+		},
+
+		{
+			"Heading": "Visits Counter",
+			"SubHeading": "Web Visits Counter with Dynamic UI",
+			"Description": "The Visits Counter project is a real-time web application that features a dynamic and responsive user interface, built with MongoDB, Express, React, and Tailwind CSS. The application displays website visits through an SVG badge.",
+			"Image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
+			"Links": [
+				{
+					"Type": "Live Link",
+					"Url": "https://visits.chhatreshkhatri.com/",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
+					"Pos": "0"
+				},
+				{
+					"Type": "GitHub Repo",
+					"Url": "https://github.com/Chhatreshkhatri/visits-counter",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
+					"Pos": "1"
+				}
+			],
+			"Order": "even"
+		},
+		{
+			"Heading": "FarmConnect",
+			"SubHeading": "FarmConnect simplifies livestock management",
+			"Description": "Built with .NET, Angular, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
+			"Image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
+			"Links": [
+				{
+					"Type": "GitHub Repo",
+					"Url": "https://github.com/ChhatreshKhatri/FarmConnect",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
+					"Pos": "0"
+				}
+			],
+			"Order": "even"
+		},
+		{
+			"Heading": "StackOverflow Clone",
+			"SubHeading": "A question-answer website with chatbot feature",
+			"Description": "A popular online forum for programming-related questions and answers built using MERN Stack, and it features user authentication, a voting system for answers, and keyword-based question search.",
+			"Image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
+			"Links": [
+				{
+					"Type": "Live Link",
+					"Url": "https://soclone.chhatreshkhatri.com/",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
+					"Pos": "0"
+				},
+				{
+					"Type": "GitHub Repo",
+					"Url": "https://github.com/Chhatreshkhatri/stack-overflow-clone",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
+					"Pos": "1"
+				}
+			],
+			"Order": "odd"
+		},
+		{
+			"Heading": "Amazon Clone",
+			"SubHeading": "An e-commerce website",
+			"Description": "This project includes a range of features including user authentication, a shopping cart, product details page, payment processing and order history.",
+			"Image": "https://cdn.chhatreshkhatri.com/images/AmazonClone.webp",
+			"Links": [
+				{
+					"Type": "Live Link",
+					"Url": "https://amazonclone.chhatreshkhatri.com/",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
+					"Pos": "0"
+				},
+				{
+					"Type": "GitHub Repo",
+					"Url": "https://github.com/Chhatreshkhatri/amazon-clone",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
+					"Pos": "1"
+				}
+			],
+			"Order": "even"
+		},
+		{
+			"Heading": "MyChat",
+			"SubHeading": "An android chat application",
+			"Description": "A simple Android chat app allows users to communicate with each other through text messages on their Android devices. The app typically features a user-friendly interface and easy-to-use chat functions.",
+			"Image": "https://cdn.chhatreshkhatri.com/images/MyChat.webp",
+			"Links": [
+				{
+					"Type": "GitHub Repo",
+					"Url": "https://github.com/Chhatreshkhatri/MyChat",
+					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
+					"Pos": "0"
+				}
+			],
+			"Order": "odd"
+		}
+	]
+}

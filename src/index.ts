@@ -1,34 +1,32 @@
 export default {
 	async fetch(req, env, ctx): Promise<Response> {
-	  const data = await import('./data.json').then((m) => m.default);
-  
-	  // Allowed domain
-	  const allowedDomain = "https://yourdomain.com";
-  
-	  // Get the Origin or Referer header
-	  const origin = req.headers.get("Origin") || req.headers.get("Referer");
-  
-	  // Check if the request is from the allowed domain
-	  if (origin && !origin.startsWith(allowedDomain)) {
-		return new Response("Forbidden", { status: 403 });
-	  }
-  
-	  // Parse the URL to get the path
-	  const url = new URL(req.url);
-	  console.log("URL path=", url.pathname);
-  
-	  // Route based on the path
-	  if (url.pathname === '/projects') {
-		return Response.json(data.projects ?? { error: 'Projects not found' });
-	  }
-  
-	  if (url.pathname === '/about') {
-		return Response.json(data.about ?? { error: 'About not found' });
-	  }
-  
-	  // Default response
-	  const res = data.home ?? data.default;
-	  return Response.json(res);
+		try {
+			const data = await import('./data.json').then((m) => m.default);
+			const home= await import('./home.json').then((m) => m.default);
+			const about = await import('./about.json').then((m) => m.default);
+			const projects = await import('./projects.json').then((m) => m.default);
+
+			const url = new URL(req.url);
+			console.log('URL path=', url.pathname);
+
+			let resData;
+			if (url.pathname === '/') {
+				resData = home ?? { error: 'Home not found' };
+			} else if (url.pathname === '/about') {
+				resData = about ?? { error: 'About not found' };
+			} else if (url.pathname === '/projects') {
+				resData = projects ?? { error: 'Projects not found' };
+			} else {
+				resData = data.default ?? { error: 'Default content not found' };
+			}
+			const headers: Record<string, string> = {
+				'Content-Type': 'application/json',
+				'Access-Control-Allow-Origin': '*.chhatreshkhatri.com',
+			};
+			return new Response(JSON.stringify(resData), { headers });
+		} catch (error) {
+			console.error('Error processing request:', error);
+			return new Response('Internal Server Error', { status: 500 });
+		}
 	},
-  } satisfies ExportedHandler<Env>;
-  
+} satisfies ExportedHandler<Env>;
