@@ -23,6 +23,7 @@ export default {
 			}
 			// Parse allowed origins from environment variable
 			const allowedOrigins = (env.ALLOWED_ORIGINS)?.split(',');
+			console.log('Allowed origins:', allowedOrigins);
 
 			// Validate the origin against the allowed origins
 			const requestOrigin = req.headers.get('Origin');
