@@ -24,7 +24,7 @@ export default {
 				'https://chhatreshkhatri.com',
 				'https://www.chhatreshkhatri.com',
 				'https://api.chhatreshkhatri.com',
-				'preview.portfolio-nextjs-6yf.pages.dev'
+				'https://preview.portfolio-nextjs-6yf.pages.dev'
 			];
 
 			// Validate the origin against the allowed origins
