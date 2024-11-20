@@ -10,7 +10,9 @@ export default {
 			console.log('URL path=', url.pathname);
 
 			let resData;
-			if (url.pathname === '/') {
+			if(url.pathname === '/'){
+				resData = data.default ?? { error: 'Default content not found' };
+			} else if (url.pathname === '/home') {
 				resData = home ?? { error: 'Home not found' };
 			} else if (url.pathname === '/about') {
 				resData = about ?? { error: 'About not found' };
@@ -19,13 +21,8 @@ export default {
 			} else {
 				resData = data.default ?? { error: 'Default content not found' };
 			}
-			// List of allowed origins
-			const allowedOrigins = [
-				'https://chhatreshkhatri.com',
-				'https://www.chhatreshkhatri.com',
-				'https://api.chhatreshkhatri.com',
-				'https://preview.portfolio-nextjs-6yf.pages.dev'
-			];
+			// Parse allowed origins from environment variable
+			const allowedOrigins = (env.ALLOWED_ORIGINS)?.split(',');
 
 			// Validate the origin against the allowed origins
 			const requestOrigin = req.headers.get('Origin');
