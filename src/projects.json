@@ -60,7 +60,7 @@
 					"Pos": "0"
 				}
 			],
-			"Order": "even"
+			"Order": "odd"
 		},
 		{
 			"Heading": "StackOverflow Clone",
@@ -81,7 +81,7 @@
 					"Pos": "1"
 				}
 			],
-			"Order": "odd"
+			"Order": "even"
 		},
 		{
 			"Heading": "Amazon Clone",
@@ -102,7 +102,7 @@
 					"Pos": "1"
 				}
 			],
-			"Order": "even"
+			"Order": "odd"
 		},
 		{
 			"Heading": "MyChat",
@@ -117,7 +117,7 @@
 					"Pos": "0"
 				}
 			],
-			"Order": "odd"
+			"Order": "even"
 		}
 	]
 }
