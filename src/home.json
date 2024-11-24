@@ -1,18 +1,16 @@
 {
-	"Content": "A Computer Science & Engineering graduate with a passion for problem-solving and web development. An enthusiastic, self-motivated professional with strong interpersonal and communication skills, I'm passionate about the latest tech trends. A quick learner and team player, I thrive on new opportunities and challenges.",
-	"Pic": "https://cdn.chhatreshkhatri.com/images/ChhatreshKhatri.webp",
-	"Links": [
+	"content": "A Computer Science & Engineering graduate with a passion for problem-solving and web development. An enthusiastic, self-motivated professional with strong interpersonal and communication skills, I'm passionate about the latest tech trends. A quick learner and team player, I thrive on new opportunities and challenges.",
+	"pic": "https://cdn.chhatreshkhatri.com/images/ChhatreshKhatri.webp",
+	"links": [
 		{
-			"Type": "Resume",
-			"Url": "https://drive.google.com/file/d/1i_gAK3PxDoMok4g5XEh0KTaD7Dm-JRR_/view?usp=sharing",
-			"Icon": "https://cdn.chhatreshkhatri.com/icons/Resume.svg",
-			"Pos": "0"
+			"type": "Resume",
+			"url": "https://drive.google.com/file/d/1i_gAK3PxDoMok4g5XEh0KTaD7Dm-JRR_/view?usp=sharing",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Resume.svg"
 		},
 		{
-			"Type": "Social Links",
-			"Url": "https://links.chhatreshkhatri.com/",
-			"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
-			"Pos": "1"
+			"type": "Social Links",
+			"url": "https://links.chhatreshkhatri.com/",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
 		}
 	]
 }

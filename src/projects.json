@@ -1,123 +1,207 @@
 {
-	"Content": {
+	"content": {
 		"Title": "Projects",
-		"Description": "Here are some of the projects I've worked on."
+		"description": "Here are some of the projects I've worked on."
 	},
-	"Projects": [
+	"projects": [
 		{
-			"Heading": "Ramaa Creations",
-			"SubHeading": "An e-commerce Jewellery website",
-			"Description": "Built with Alicms tool at Alibaba Cloud Low-Code Development Contest 2022. Achieved second position out of 2043 participants.",
-			"Image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
-			"Links": [
+			"heading": "Ramaa Creations",
+			"subHeading": "An e-commerce Jewellery website",
+			"description": "Built with Alicms tool at Alibaba Cloud Low-Code Development Contest 2022. Achieved second position out of 2043 participants.",
+			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
+			"links": [
 				{
-					"Type": "Blog Link",
-					"Url": "https://www.alibabacloud.com/blog/598812",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg",
-					"Pos": "0"
+					"type": "Blog Link",
+					"url": "https://www.alibabacloud.com/blog/598812",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
 				},
 				{
-					"Type": "Winner List",
-					"Url": "https://www.alibabacloud.com/blog/598754",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg",
-					"Pos": "1"
+					"type": "Winner List",
+					"url": "https://www.alibabacloud.com/blog/598754",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
 				}
 			],
-			"Order": "odd"
+			"tags": [
+				{
+					"name": "Alicms",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Alicms.svg"
+				},
+				{
+					"name": "Alibaba Cloud",
+					"url": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+				},
+				{
+					"name": "Low-Code",
+					"url": "https://cdn.chhatreshkhatri.com/icons/LowCode.svg"
+				}
+			]
 		},
 
 		{
-			"Heading": "Visits Counter",
-			"SubHeading": "Web Visits Counter with Dynamic UI",
-			"Description": "The Visits Counter project is a real-time web application that features a dynamic and responsive user interface, built with MongoDB, Express, React, and Tailwind CSS. The application displays website visits through an SVG badge.",
-			"Image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
-			"Links": [
+			"heading": "Visits Counter",
+			"subHeading": "Web Visits Counter with Dynamic UI",
+			"description": "The Visits Counter project is a real-time web application that features a dynamic and responsive user interface, built with MongoDB, Express, React, and Tailwind CSS. The application displays website visits through an SVG badge.",
+			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
+			"links": [
 				{
-					"Type": "Live Link",
-					"Url": "https://visits.chhatreshkhatri.com/",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
-					"Pos": "0"
+					"type": "Live Link",
+					"url": "https://visits.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
 				},
 				{
-					"Type": "GitHub Repo",
-					"Url": "https://github.com/Chhatreshkhatri/visits-counter",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
-					"Pos": "1"
+					"type": "GitHub Repo",
+					"url": "https://github.com/Chhatreshkhatri/visits-counter",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
 				}
 			],
-			"Order": "even"
-		},
-		{
-			"Heading": "FarmConnect",
-			"SubHeading": "FarmConnect simplifies livestock management",
-			"Description": "Built with .NET, Angular, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
-			"Image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
-			"Links": [
+			"tags": [
 				{
-					"Type": "GitHub Repo",
-					"Url": "https://github.com/ChhatreshKhatri/FarmConnect",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
-					"Pos": "0"
-				}
-			],
-			"Order": "odd"
-		},
-		{
-			"Heading": "StackOverflow Clone",
-			"SubHeading": "A question-answer website with chatbot feature",
-			"Description": "A popular online forum for programming-related questions and answers built using MERN Stack, and it features user authentication, a voting system for answers, and keyword-based question search.",
-			"Image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
-			"Links": [
-				{
-					"Type": "Live Link",
-					"Url": "https://soclone.chhatreshkhatri.com/",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
-					"Pos": "0"
+					"name": "MongoDB",
+					"url": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
 				},
 				{
-					"Type": "GitHub Repo",
-					"Url": "https://github.com/Chhatreshkhatri/stack-overflow-clone",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
-					"Pos": "1"
-				}
-			],
-			"Order": "even"
-		},
-		{
-			"Heading": "Amazon Clone",
-			"SubHeading": "An e-commerce website",
-			"Description": "This project includes a range of features including user authentication, a shopping cart, product details page, payment processing and order history.",
-			"Image": "https://cdn.chhatreshkhatri.com/images/AmazonClone.webp",
-			"Links": [
-				{
-					"Type": "Live Link",
-					"Url": "https://amazonclone.chhatreshkhatri.com/",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
-					"Pos": "0"
+					"name": "Express.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
 				},
 				{
-					"Type": "GitHub Repo",
-					"Url": "https://github.com/Chhatreshkhatri/amazon-clone",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
-					"Pos": "1"
+					"name": "React",
+					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "Tailwind CSS",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+				},
+				{
+					"name": "SVG image",
+					"url": "https://cdn.chhatreshkhatri.com/icons/image.svg"
 				}
-			],
-			"Order": "odd"
+			]
 		},
 		{
-			"Heading": "MyChat",
-			"SubHeading": "An android chat application",
-			"Description": "A simple Android chat app allows users to communicate with each other through text messages on their Android devices. The app typically features a user-friendly interface and easy-to-use chat functions.",
-			"Image": "https://cdn.chhatreshkhatri.com/images/MyChat.webp",
-			"Links": [
+			"heading": "FarmConnect",
+			"subHeading": "FarmConnect simplifies livestock management",
+			"description": "Built with .NET, Angular, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
+			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
+			"links": [
 				{
-					"Type": "GitHub Repo",
-					"Url": "https://github.com/Chhatreshkhatri/MyChat",
-					"Icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg",
-					"Pos": "0"
+					"type": "GitHub Repo",
+					"url": "https://github.com/ChhatreshKhatri/FarmConnect",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
 				}
 			],
-			"Order": "even"
+			"tags": [
+				{
+					"name": ".NET",
+					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
+				},
+				{
+					"name": "Angular",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Angular.svg"
+				},
+				{
+					"name": "SQL Server",
+					"url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
+				}
+			]
+		},
+		{
+			"heading": "StackOverflow Clone",
+			"subHeading": "A question-answer website with chatbot feature",
+			"description": "A popular online forum for programming-related questions and answers built using MERN Stack, and it features user authentication, a voting system for answers, and keyword-based question search.",
+			"image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://soclone.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/Chhatreshkhatri/stack-overflow-clone",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "MongoDB",
+					"url": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
+				},
+				{
+					"name": "Express.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
+				},
+				{
+					"name": "React",
+					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "Node.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Node.svg"
+				},
+				{
+					"name": "Kommunicate",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Kommunicate.svg"
+				}
+			]
+		},
+		{
+			"heading": "Amazon Clone",
+			"subHeading": "An e-commerce website",
+			"description": "This project includes a range of features including user authentication, a shopping cart, product details page, payment processing and order history.",
+			"image": "https://cdn.chhatreshkhatri.com/images/AmazonClone.webp",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://amazonclone.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/Chhatreshkhatri/amazon-clone",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "React",
+					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "Firebase",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Firebase.svg"
+				},
+				{
+					"name": "Stripe",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Stripe.svg"
+				}
+			]
+		},
+		{
+			"heading": "MyChat",
+			"subHeading": "An android chat application",
+			"description": "A simple Android chat app allows users to communicate with each other through text messages on their Android devices. The app typically features a user-friendly interface and easy-to-use chat functions.",
+			"image": "https://cdn.chhatreshkhatri.com/images/MyChat.webp",
+			"links": [
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/Chhatreshkhatri/MyChat",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "Android",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Android.svg"
+				},
+				{
+					"name": "Java",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Java.svg"
+				},
+				{
+					"name": "Firebase",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Firebase.svg"
+				}
+			]
 		}
 	]
 }
