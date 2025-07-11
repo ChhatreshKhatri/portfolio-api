@@ -7,7 +7,7 @@ export default {
 			const projects = await import('./projects.json').then((m) => m.default);
 
 			const url = new URL(req.url);
-			console.log('URL path=', url.pathname);
+			// console.log('URL path=', url.pathname);
 
 			let resData;
 			if(url.pathname === '/'){
@@ -23,7 +23,7 @@ export default {
 			}
 			// Parse allowed origins from environment variable
 			const allowedOrigins = (env.ALLOWED_ORIGINS)?.split(',');
-			console.log('Allowed origins:', allowedOrigins);
+			// console.log('Allowed origins:', allowedOrigins);
 
 			// Validate the origin against the allowed origins
 			const requestOrigin = req.headers.get('Origin');

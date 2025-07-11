@@ -80,12 +80,17 @@
 		{
 			"heading": "FarmConnect",
 			"subHeading": "FarmConnect simplifies livestock management",
-			"description": "Built with .NET, Angular, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
+			"description": "Built with .NET, Next.js, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
 			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
 			"links": [
 				{
+					"type": "Live Link",
+					"url": "https://farmconnect.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
 					"type": "GitHub Repo",
-					"url": "https://github.com/ChhatreshKhatri/FarmConnect",
+					"url": "https://github.com/ChhatreshKhatri/FarmConnect-Next.jsApp",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
 				}
 			],
@@ -95,12 +100,16 @@
 					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
 				},
 				{
-					"name": "Angular",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Angular.svg"
+					"name": "Next.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
 				},
 				{
 					"name": "SQL Server",
 					"url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
+				},
+				{
+					"name": "Azure",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
 				}
 			]
 		},
