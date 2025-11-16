@@ -8,7 +8,7 @@
 			"heading": "Ramaa Creations",
 			"subHeading": "An e-commerce Jewellery website",
 			"description": "Built with Alicms tool at Alibaba Cloud Low-Code Development Contest 2022. Achieved second position out of 2043 participants.",
-			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
+			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.jpeg",
 			"links": [
 				{
 					"type": "Blog Link",
@@ -41,7 +41,7 @@
 			"heading": "Visits Counter",
 			"subHeading": "Web Visits Counter with Dynamic UI",
 			"description": "The Visits Counter project is a real-time web application that features a dynamic and responsive user interface, built with MongoDB, Express, React, and Tailwind CSS. The application displays website visits through an SVG badge.",
-			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
+			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.jpg",
 			"links": [
 				{
 					"type": "Live Link",
@@ -81,7 +81,7 @@
 			"heading": "FarmConnect",
 			"subHeading": "FarmConnect simplifies livestock management",
 			"description": "Built with .NET, Next.js, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
-			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
+			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.jpg",
 			"links": [
 				{
 					"type": "Live Link",
@@ -117,7 +117,7 @@
 			"heading": "StackOverflow Clone",
 			"subHeading": "A question-answer website with chatbot feature",
 			"description": "A popular online forum for programming-related questions and answers built using MERN Stack, and it features user authentication, a voting system for answers, and keyword-based question search.",
-			"image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
+			"image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.jpg",
 			"links": [
 				{
 					"type": "Live Link",
