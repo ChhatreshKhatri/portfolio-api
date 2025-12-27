@@ -36,7 +36,82 @@
 				}
 			]
 		},
-
+		{
+			"heading": "FarmConnect",
+			"subHeading": "FarmConnect simplifies livestock management",
+			"description": "Built with .NET, Next.js, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
+			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.jpg",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://farmconnect.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/ChhatreshKhatri/FarmConnect-Next.jsApp",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": ".NET",
+					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
+				},
+				{
+					"name": "Next.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "SQL Server",
+					"url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
+				},
+				{
+					"name": "Azure",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
+				}
+			]
+		},
+		{
+			"heading": "DLouck",
+			"subHeading": "Icon Management Platform",
+			"description": "An icon management platform powered by Cloudflare R2 storage, built with Next.js. Features secure admin panel with upload/delete capabilities, search, folder management, and modern design with dark/light theme support.",
+			"image": "https://cdn.chhatreshkhatri.com/images/Dlouck.jpeg",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://dlouck.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/ChhatreshKhatri/DLouck",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "Next.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "React",
+					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "TypeScript",
+					"url": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+				},
+				{
+					"name": "Cloudflare",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
+				},
+				{
+					"name": "Tailwind CSS",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+				}
+			]
+		},
 		{
 			"heading": "Visits Counter",
 			"subHeading": "Web Visits Counter with Dynamic UI",
@@ -77,42 +152,7 @@
 				}
 			]
 		},
-		{
-			"heading": "FarmConnect",
-			"subHeading": "FarmConnect simplifies livestock management",
-			"description": "Built with .NET, Next.js, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
-			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.jpg",
-			"links": [
-				{
-					"type": "Live Link",
-					"url": "https://farmconnect.chhatreshkhatri.com/",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/ChhatreshKhatri/FarmConnect-Next.jsApp",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": ".NET",
-					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
-				},
-				{
-					"name": "Next.js",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
-				},
-				{
-					"name": "SQL Server",
-					"url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
-				},
-				{
-					"name": "Azure",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
-				}
-			]
-		},
+		
 		{
 			"heading": "StackOverflow Clone",
 			"subHeading": "A question-answer website with chatbot feature",
