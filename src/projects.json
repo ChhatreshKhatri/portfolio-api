@@ -74,8 +74,8 @@
 		},
 		{
 			"heading": "DLouck",
-			"subHeading": "Icon Management Platform",
-			"description": "An icon management platform powered by Cloudflare R2 storage, built with Next.js. Features secure admin panel with upload/delete capabilities, search, folder management, and modern design with dark/light theme support.",
+			"subHeading": "Asset Management Platform",
+			"description": "An asset management platform powered by Cloudflare R2 storage, built with Next.js. Features secure admin panel with upload/delete capabilities, search, folder management, and modern design with dark/light theme support.",
 			"image": "https://cdn.chhatreshkhatri.com/images/Dlouck.jpeg",
 			"links": [
 				{
@@ -152,7 +152,7 @@
 				}
 			]
 		},
-		
+
 		{
 			"heading": "StackOverflow Clone",
 			"subHeading": "A question-answer website with chatbot feature",
