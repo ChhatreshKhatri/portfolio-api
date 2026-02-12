@@ -2,7 +2,7 @@ export default {
 	async fetch(req, env, ctx): Promise<Response> {
 		try {
 			const data = await import('./data.json').then((m) => m.default);
-			const home= await import('./home.json').then((m) => m.default);
+			const home = await import('./home.json').then((m) => m.default);
 			const about = await import('./about.json').then((m) => m.default);
 			const projects = await import('./projects.json').then((m) => m.default);
 
@@ -10,7 +10,7 @@ export default {
 			// console.log('URL path=', url.pathname);
 
 			let resData;
-			if(url.pathname === '/'){
+			if (url.pathname === '/') {
 				resData = data.default ?? { error: 'Default content not found' };
 			} else if (url.pathname === '/home') {
 				resData = home ?? { error: 'Home not found' };
@@ -22,7 +22,7 @@ export default {
 				resData = data.default ?? { error: 'Default content not found' };
 			}
 			// Parse allowed origins from environment variable
-			const allowedOrigins = (env.ALLOWED_ORIGINS)?.split(',');
+			const allowedOrigins = env.ALLOWED_ORIGINS?.split(',') ?? [];
 			// console.log('Allowed origins:', allowedOrigins);
 
 			// Validate the origin against the allowed origins
