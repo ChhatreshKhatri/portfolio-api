@@ -1,19 +1,19 @@
 {
-  "name": "portfolio-api",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest",
-    "cf-typegen": "wrangler types"
-  },
-  "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.8.18",
-    "@cloudflare/workers-types": "^4.20250420.0",
-    "typescript": "^5.8.3",
-    "vitest": "^3.1.1",
-    "wrangler": "^4.12.0"
-  }
+	"name": "wrangler",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.12.4",
+		"@types/node": "^25.2.3",
+		"typescript": "^5.5.2",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.64.0"
+	}
 }
