@@ -1,25 +1,25 @@
+import dataJson from './data.json';
+import homeJson from './home.json';
+import aboutJson from './about.json';
+import projectsJson from './projects.json';
+
 export default {
 	async fetch(req, env, ctx): Promise<Response> {
 		try {
-			const data = await import('./data.json').then((m) => m.default);
-			const home = await import('./home.json').then((m) => m.default);
-			const about = await import('./about.json').then((m) => m.default);
-			const projects = await import('./projects.json').then((m) => m.default);
-
 			const url = new URL(req.url);
 			// console.log('URL path=', url.pathname);
 
 			let resData;
 			if (url.pathname === '/') {
-				resData = data.default ?? { error: 'Default content not found' };
+				resData = dataJson.default ?? { error: 'Default content not found' };
 			} else if (url.pathname === '/home') {
-				resData = home ?? { error: 'Home not found' };
+				resData = homeJson ?? { error: 'Home not found' };
 			} else if (url.pathname === '/about') {
-				resData = about ?? { error: 'About not found' };
+				resData = aboutJson ?? { error: 'About not found' };
 			} else if (url.pathname === '/projects') {
-				resData = projects ?? { error: 'Projects not found' };
+				resData = projectsJson ?? { error: 'Projects not found' };
 			} else {
-				resData = data.default ?? { error: 'Default content not found' };
+				resData = dataJson.default ?? { error: 'Default content not found' };
 			}
 			// Parse allowed origins from environment variable
 			const allowedOrigins = env.ALLOWED_ORIGINS?.split(',') ?? [];

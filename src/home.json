@@ -1,7 +1,53 @@
 {
-	"intro":"Hi! I'm Chhatresh Khatri",
-	"content": "A Computer Science & Engineering graduate with a passion for problem-solving and web development. An enthusiastic, self-motivated professional with strong interpersonal and communication skills, I'm passionate about the latest tech trends. A quick learner and team player, I thrive on new opportunities and challenges.",
+	"intro": "Hi! I'm Chhatresh Khatri",
+	"content": "Full-Stack Developer with 2+ years of experience specializing in high-performance web applications (Next.js 15, React) and scalable backend solutions (.NET Core, SQL Server). Proven track record of optimizing workflows, architecting robust state management systems, and leveraging Agentic AI to accelerate software delivery. A passionate problem-solver who thrives on building seamless user experiences and cutting-edge web automation.",
 	"pic": "https://cdn.chhatreshkhatri.com/images/ChhatreshKhatri.webp",
+	"roles": [
+		"Software Engineer",
+		"Full-Stack Developer",
+		"Next.js 15 Specialist",
+		"Agentic AI Enthusiast"
+	],
+	"stats": [
+		{
+			"value": "2+",
+			"label": "Years Experience"
+		},
+		{
+			"value": "10+",
+			"label": "Projects Delivered"
+		},
+		{
+			"value": "85%",
+			"label": "Workflow Acceleration"
+		},
+		{
+			"value": "2nd",
+			"label": "Alibaba Cloud Contest"
+		}
+	],
+	"highlights": [
+		{
+			"name": "Next.js 15+",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+		},
+		{
+			"name": "React.js",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+		},
+		{
+			"name": "Tailwind CSS v4",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+		},
+		{
+			"name": "TypeScript",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+		},
+		{
+			"name": "Agentic AI",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/VSCode.svg"
+		}
+	],
 	"links": [
 		{
 			"type": "Resume",

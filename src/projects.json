@@ -1,45 +1,13 @@
 {
 	"content": {
-		"Title": "Projects",
-		"description": "Here are some of the projects I've worked on."
+		"title": "Projects",
+		"description": "Here is a curated showcase of my full-stack web applications, cloud platforms, and award-winning projects."
 	},
 	"projects": [
 		{
-			"heading": "Ramaa Creations",
-			"subHeading": "An e-commerce Jewellery website",
-			"description": "Built with Alicms tool at Alibaba Cloud Low-Code Development Contest 2022. Achieved second position out of 2043 participants.",
-			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
-			"links": [
-				{
-					"type": "Blog Link",
-					"url": "https://www.alibabacloud.com/blog/598812",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
-				},
-				{
-					"type": "Winner List",
-					"url": "https://www.alibabacloud.com/blog/598754",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "Alicms",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Alicms.svg"
-				},
-				{
-					"name": "Alibaba Cloud",
-					"url": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
-				},
-				{
-					"name": "Low-Code",
-					"url": "https://cdn.chhatreshkhatri.com/icons/LowCode.svg"
-				}
-			]
-		},
-		{
 			"heading": "FarmConnect",
-			"subHeading": "FarmConnect simplifies livestock management",
-			"description": "Built with .NET, Next.js, and SQL Server, FarmConnect streamlines tasks like health tracking, inventory management, and resource coordination, enhancing productivity and collaboration within the agricultural community.",
+			"subHeading": "Full-Stack Livestock Management Platform",
+			"description": "Built with .NET Core Web API, Next.js 15, and SQL Server, FarmConnect is a comprehensive agricultural platform that streamlines health tracking, automated inventory management, and real-time resource coordination across farming communities.",
 			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
 			"links": [
 				{
@@ -55,7 +23,7 @@
 			],
 			"tags": [
 				{
-					"name": ".NET",
+					"name": ".NET Core",
 					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
 				},
 				{
@@ -74,8 +42,8 @@
 		},
 		{
 			"heading": "DLouck",
-			"subHeading": "Asset Management Platform",
-			"description": "An asset management platform powered by Cloudflare R2 storage, built with Next.js. Features secure admin panel with upload/delete capabilities, search, folder management, and modern design with dark/light theme support.",
+			"subHeading": "Cloud Asset Management Platform",
+			"description": "A modern asset management platform powered by Cloudflare R2 storage and built with Next.js. Features a secure admin control panel with lightning-fast upload/delete capabilities, instant search, dynamic folder management, and full dark/light theme support.",
 			"image": "https://cdn.chhatreshkhatri.com/images/Dlouck.webp",
 			"links": [
 				{
@@ -114,8 +82,8 @@
 		},
 		{
 			"heading": "Visits Counter",
-			"subHeading": "Web Visits Counter with Dynamic UI",
-			"description": "The Visits Counter project is a real-time web application that features a dynamic and responsive user interface, built with MongoDB, Express, React, and Tailwind CSS. The application displays website visits through an SVG badge.",
+			"subHeading": "Real-Time Web Traffic Analytics & SVG Badges",
+			"description": "A real-time web traffic tracking application built with MongoDB, Express, React, and Tailwind CSS. Features dynamic analytics dashboards and custom SVG visit badge generation for integration into GitHub READMEs and documentation.",
 			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
 			"links": [
 				{
@@ -147,16 +115,47 @@
 					"url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
 				},
 				{
-					"name": "SVG image",
+					"name": "SVG Badge",
 					"url": "https://cdn.chhatreshkhatri.com/icons/Image.svg"
 				}
 			]
 		},
-
+		{
+			"heading": "Ramaa Creations",
+			"subHeading": "E-Commerce Jewellery Portal (Global Award Winner)",
+			"description": "Built during the Alibaba Cloud Low-Code Development Contest 2022 using AliCMS and Alibaba Cloud cloud infrastructure. Achieved global 2nd position out of 2,043 participating developers worldwide.",
+			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
+			"links": [
+				{
+					"type": "Blog Link",
+					"url": "https://www.alibabacloud.com/blog/598812",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+				},
+				{
+					"type": "Winner List",
+					"url": "https://www.alibabacloud.com/blog/598754",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "Alicms",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Alicms.svg"
+				},
+				{
+					"name": "Alibaba Cloud",
+					"url": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+				},
+				{
+					"name": "Low-Code",
+					"url": "https://cdn.chhatreshkhatri.com/icons/LowCode.svg"
+				}
+			]
+		},
 		{
 			"heading": "StackOverflow Clone",
-			"subHeading": "A question-answer website with chatbot feature",
-			"description": "A popular online forum for programming-related questions and answers built using MERN Stack, and it features user authentication, a voting system for answers, and keyword-based question search.",
+			"subHeading": "Q&A Community Forum with AI Chatbot",
+			"description": "A full-featured developer question-and-answer platform built on the MERN stack. Includes JWT user authentication, real-time reputation and voting systems, keyword-based search, and an integrated Kommunicate live chatbot.",
 			"image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
 			"links": [
 				{
@@ -195,8 +194,8 @@
 		},
 		{
 			"heading": "Amazon Clone",
-			"subHeading": "An e-commerce website",
-			"description": "This project includes a range of features including user authentication, a shopping cart, product details page, payment processing and order history.",
+			"subHeading": "E-Commerce Shopping Portal",
+			"description": "A full-featured e-commerce web application featuring Firebase user authentication, dynamic shopping cart management, detailed product checkout workflows, and integrated Stripe payment processing.",
 			"image": "https://cdn.chhatreshkhatri.com/images/AmazonClone.webp",
 			"links": [
 				{
@@ -227,8 +226,8 @@
 		},
 		{
 			"heading": "MyChat",
-			"subHeading": "An android chat application",
-			"description": "A simple Android chat app allows users to communicate with each other through text messages on their Android devices. The app typically features a user-friendly interface and easy-to-use chat functions.",
+			"subHeading": "Real-Time Android Messaging Application",
+			"description": "A responsive Android chat application allowing users to communicate seamlessly via real-time messaging on mobile devices. Features Firebase database backend, intuitive UI design, and instant message synchronization.",
 			"image": "https://cdn.chhatreshkhatri.com/images/MyChat.webp",
 			"links": [
 				{
