@@ -12,6 +12,13 @@
 			"badge": "Current Role",
 			"projects": [
 				{
+					"name": "AI Sales Assistant",
+					"details": [
+						"Engineered an AI-driven web app using Next.js 16+ and Tailwind CSS v4; integrated AskPG AI/ML APIs to analyze PDFs/PPTs for sales performance improvements and feedback.",
+						"Developed a Voice Roleplay AI for rehearsal and interactive AI Chat interface; 2x sprint velocity leveraging GitHub Copilot for 100% AI-driven code/test generation and Sonar code smell fixes."
+					]
+				},
+				{
 					"name": "7NOW Web Redesign",
 					"details": [
 						"Built a modern web application using Next.js 15+ and Tailwind CSS v4, leveraging SSG, ISR, and SSR alongside multitier sitemap generation and dynamic metadata for SEO performance.",
