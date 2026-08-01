@@ -133,12 +133,12 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Angular.svg"
 				},
 				{
-					"name": "React",
+					"name": "React.js",
 					"color": "#61DAFB",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
 				},
 				{
-					"name": "Next.js 15+",
+					"name": "Next.js",
 					"color": "#000000",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
 				},
