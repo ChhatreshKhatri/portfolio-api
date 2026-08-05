@@ -27,7 +27,7 @@
 					]
 				},
 				{
-					"name": "CITI Enterprise Excellence Automation",
+					"name": "CITI EE Automation",
 					"details": [
 						"Developed automation solutions using Xceptor for diverse file formats (PDF, CSV, XLSX) and enhanced workflows through translation tables, message procedures, and process orchestration.",
 						"Eliminated manual, error-prone processes by replacing Python scripts and VBA macros with scalable Xceptor automation, reducing task time from 1 hour to 5–6 minutes, while increasing accuracy and reducing tool dependency."
