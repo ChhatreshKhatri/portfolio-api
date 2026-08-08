@@ -82,8 +82,8 @@
 		},
 		{
 			"heading": "Visits Counter",
-			"subHeading": "Real-Time Web Traffic Analytics & SVG Badges",
-			"description": "A real-time web traffic tracking application built with MongoDB, Express, React, and Tailwind CSS. Features dynamic analytics dashboards and custom SVG visit badge generation for integration into GitHub READMEs and documentation.",
+			"subHeading": "Real-Time Custom SVG Visit Badges",
+			"description": "A real-time web traffic tracking application built with MongoDB, Express, React, and Tailwind CSS. Features a webpage for customizing and generating dynamic SVG visit badges for integration into GitHub READMEs and websites.",
 			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
 			"links": [
 				{
