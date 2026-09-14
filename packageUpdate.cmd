@@ -1,1 +1,1 @@
-npm i @cloudflare/vitest-pool-workers@latest @types/node@latest typescript@latest vitest@latest wrangler@latest
+npm i -D @cloudflare/vitest-plugin@latest @types/node@latest typescript@latest wrangler@latest "vitest@~4.1.0"

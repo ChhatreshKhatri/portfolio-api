@@ -1,7 +1,7 @@
 {
 	"content": {
 		"title": "Professional Summary",
-		"text": "Hi there! I'm Chhatresh Khatri, a Software Engineer at LTM Limited and a passionate Full-Stack Developer with 2+ years of professional experience. I specialize in building high-performance, SEO-optimized web applications using Next.js 15+ and React, paired with robust and scalable backend architectures using .NET Core and SQL Server. I am deeply experienced in enterprise automation, state management, and modern development workflows powered by Agentic AI. Driven, self-motivated, and collaborative, I am dedicated to delivering clean, modular code and visually stunning user experiences."
+		"text": "Hi there! I'm Chhatresh Khatri, a Software Engineer at LTM Limited and a passionate Full-Stack Developer with 2+ years of professional experience. I specialize in building high-performance, SEO-optimized web applications using Next.js 15+ and React, paired with robust and scalable backend architectures using Node.js, Express, and GCP. I am deeply experienced in enterprise automation, state management, and modern development workflows powered by Agentic AI. Driven, self-motivated, and collaborative, I am dedicated to delivering clean, modular code and visually stunning user experiences."
 	},
 	"experience": [
 		{
@@ -68,21 +68,6 @@
 			"title": "Languages",
 			"skills": [
 				{
-					"name": "C",
-					"color": "#1563B1",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/C.svg"
-				},
-				{
-					"name": "C++",
-					"color": "#004488",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/C++.svg"
-				},
-				{
-					"name": "C#",
-					"color": "#512BD4",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/CSharp.svg"
-				},
-				{
 					"name": "Java",
 					"color": "#437291",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Java.svg"
@@ -91,11 +76,6 @@
 					"name": "MySQL",
 					"color": "#00678c",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/MySQL.svg"
-				},
-				{
-					"name": "SQL Server",
-					"color": "#CC292B",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
 				},
 				{
 					"name": "HTML5",
@@ -123,16 +103,6 @@
 			"title": "Framework & Libraries",
 			"skills": [
 				{
-					"name": ".NET Core",
-					"color": "#512BD4",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
-				},
-				{
-					"name": "Angular",
-					"color": "#DD0031",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Angular.svg"
-				},
-				{
 					"name": "React.js",
 					"color": "#61DAFB",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
@@ -141,6 +111,11 @@
 					"name": "Next.js",
 					"color": "#000000",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "Redux Toolkit",
+					"color": "#764ABC",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Redux.svg"
 				},
 				{
 					"name": "Astro",
@@ -198,34 +173,19 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
 				},
 				{
+					"name": "GitHub Actions",
+					"color": "#2088FF",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHubActions.svg"
+				},
+				{
 					"name": "Vercel",
 					"color": "#000000",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Vercel.svg"
 				},
 				{
-					"name": "Firebase",
-					"color": "#FFCA28",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Firebase.svg"
-				},
-				{
 					"name": "Figma",
 					"color": "#F24E1E",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Figma.svg"
-				},
-				{
-					"name": "Canva",
-					"color": "#00C4CC",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Canva.svg"
-				},
-				{
-					"name": "Gimp",
-					"color": "#5C5543",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Gimp.svg"
-				},
-				{
-					"name": "Cloudinary",
-					"color": "#F7F7F7",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Cloudinary.svg"
 				},
 				{
 					"name": "Cloudflare",
@@ -238,19 +198,49 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
 				},
 				{
-					"name": "Google Cloud",
+					"name": "Google Cloud (GCP)",
 					"color": "#4285F4",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/GoogleCloud.svg"
-				},
-				{
-					"name": "Visual Studio",
-					"color": "#5C2D91",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/VisualStudio.svg"
 				},
 				{
 					"name": "VS Code",
 					"color": "#007ACC",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/VSCode.svg"
+				}
+			]
+		},
+		{
+			"title": "Agentic AI",
+			"skills": [
+				{
+					"name": "ChatGPT",
+					"color": "#10A37F",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/ChatGPT.svg"
+				},
+				{
+					"name": "Claude",
+					"color": "#CC785C",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Claude.svg"
+				},
+				{
+					"name": "Gemini",
+					"color": "#4E82EE",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Gemini.svg"
+				},
+				{
+					"name": "Microsoft 365 Copilot",
+					"color": "#0078D4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Microsoft365Copilot.svg"
+				},
+				{
+					"name": "Cursor AI",
+					"color": "#18181B",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/CursorAI.svg"
+				},
+				{
+					"name": "Antigravity",
+					"color": "#4285F4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Antigravity.svg"
 				}
 			]
 		},
