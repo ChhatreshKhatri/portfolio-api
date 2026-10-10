@@ -1,7 +1,7 @@
 {
 	"content": {
 		"title": "Professional Summary",
-		"text": "Hi there! I'm Chhatresh Khatri, a Software Engineer at LTM Limited and a passionate Full-Stack Developer with 2+ years of professional experience. I specialize in building high-performance, SEO-optimized web applications using Next.js 15+ and React, paired with robust and scalable backend architectures using Node.js, Express, and GCP. I am deeply experienced in enterprise automation, state management, and modern development workflows powered by Agentic AI. Driven, self-motivated, and collaborative, I am dedicated to delivering clean, modular code and visually stunning user experiences."
+		"text": "Hi there! I'm Chhatresh Khatri, a Software Engineer at LTM Limited and a passionate Full-Stack Developer with 3+ years of professional experience. I specialize in building high-performance, SEO-optimized web applications using Next.js 15+ and React, paired with robust and scalable backend architectures using Node.js, Express, and GCP. I am deeply experienced in enterprise automation, state management, and modern development workflows powered by Agentic AI. Driven, self-motivated, and collaborative, I am dedicated to delivering clean, modular code and visually stunning user experiences."
 	},
 	"experience": [
 		{
@@ -58,9 +58,20 @@
 	],
 	"achievements": [
 		{
+			"title": "AWS Certified AI Practitioner",
+			"description": "Amazon Web Services Training and Certification",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/AWS.svg",
+			"url": "https://www.credly.com/badges/fbdb1e51-753b-4e35-ac6a-c2898e868ff8",
+			"linkText": "Verify Credential",
+			"linkIcon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+		},
+		{
 			"title": "Alibaba Cloud Low-Code Development Contest 2022",
-			"award": "2nd Position among 2,043 Participants",
-			"description": "Achieved Second position globally by creating an innovative online Jewellery e-commerce platform using Alibaba Cloud tools and Alicms."
+			"description": "2nd Position among 2,043 Participants",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg",
+			"url": "https://www.alibabacloud.com/blog/598754",
+			"linkText": "Announcement",
+			"linkIcon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
 		}
 	],
 	"sections": [
