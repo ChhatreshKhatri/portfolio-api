@@ -9,6 +9,10 @@ STOP. Your knowledge of Cloudflare Workers APIs and limits may be outdated. Alwa
 
 For all limits and quotas, retrieve from the product's `/platform/limits/` page. eg. `/workers/platform/limits`
 
+## Git & Version Control Protocol
+
+- **Strict Permission Required**: **NEVER** run `git commit` or `git push` without explicit user permission or instruction. Only test, build, or verify files unless the user specifically directs you to commit or push.
+
 ## Commands
 
 | Command | Purpose |

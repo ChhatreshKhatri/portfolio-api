@@ -239,7 +239,7 @@
 			"icon": "⚡",
 			"title": "Enterprise Automation & Performance",
 			"description": "Orchestrating enterprise automation workflows (reducing critical turnaround time by 90%), advanced technical SEO architecture with JSON-LD structured data, and event-driven product tracking (Mixpanel, custom analytics). Optimizing Core Web Vitals for maximum crawlability and sub-second edge performance.",
-			"tags": ["Workflow Pipelines", "Technical SEO", "JSON-LD", "Mixpanel Tracking", "Core Web Vitals", "90% Automation Cut"]
+			"tags": ["Workflow Pipelines", "Technical SEO", "JSON-LD", "Mixpanel Tracking", "Core Web Vitals"]
 		}
 	]
 }
