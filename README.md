@@ -1,124 +1,128 @@
 # Portfolio API
 
-Cloudflare Workers API for portfolio content used by the Astro frontend:
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-API-F38020.svg?logo=cloudflareworkers&logoColor=white)](https://workers.cloudflare.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vitest](https://img.shields.io/badge/Vitest-Passing-729B1B.svg?logo=vitest&logoColor=white)](https://vitest.dev/)
+[![Wrangler](https://img.shields.io/badge/Wrangler-CLI-F38020.svg?logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/workers/wrangler/)
 
-- Frontend repo: https://github.com/ChhatreshKhatri/astro-portfolio
-- Frontend service file: `src/services/api.ts`
-- Frontend env var: `PUBLIC_API_URL`
+Cloudflare Workers serverless JSON API serving dynamic content to the Astro portfolio frontend.
 
-This API serves JSON data for:
+- **Frontend Repository**: [astro-portfolio](https://github.com/ChhatreshKhatri/astro-portfolio)
+- **Frontend Service**: `src/services/api.ts`
+- **Environment Variable**: `PUBLIC_API_URL`
 
-- `/` (default welcome payload)
-- `/home`
-- `/about`
-- `/projects`
+---
 
-## Tech Stack
+## ⚡ Endpoints
 
-- Cloudflare Workers
-- TypeScript
-- Wrangler
-- Vitest (Workers pool)
+| Endpoint | Method | Description |
+| :--- | :--- | :--- |
+| `/` | `GET`, `HEAD` | API root health check and status payload |
+| `/home` | `GET`, `HEAD` | Intro, typewriter roles, statistics, selected work, enterprise credibility, and capabilities |
+| `/about` | `GET`, `HEAD` | Biography, work experience, decoupled honors & recognition, education credentials, and tech stack |
+| `/projects` | `GET`, `HEAD` | Comprehensive projects catalog, architectural highlights, badges, and demo/repo links |
 
-## Project Structure
+All endpoints support `HEAD` requests (RFC-compliant empty body with edge caching headers) and `OPTIONS` preflight requests for CORS.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Runtime**: [Cloudflare Workers](https://workers.cloudflare.com/) (Edge Serverless)
+- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict mode)
+- **Dev CLI**: [Wrangler](https://developers.cloudflare.com/workers/wrangler/)
+- **Testing**: [Vitest](https://vitest.dev/) (Cloudflare Workers pool)
+
+---
+
+## 📁 Project Structure
 
 ```text
 src/
-  index.ts         # Worker fetch handler + routing + CORS
-  data.json        # default payload
-  home.json        # home page content
-  about.json       # about page content
-  projects.json    # projects page content
+  index.ts         # Worker fetch handler, routing, CORS & cache headers
+  data.json        # Default root payload
+  home.json        # Homepage dynamic data
+  about.json       # About page data (Experience, Awards, Education, Skills)
+  projects.json    # Showcase projects catalog
 test/
-  index.spec.ts    # test scaffold
-wrangler.jsonc     # Worker config
+  index.spec.ts    # Comprehensive Vitest unit & integration test suite
+wrangler.jsonc     # Cloudflare Worker configuration & bindings
 ```
 
-## Local Development
+---
 
-### 1) Install dependencies
+## 🚀 Local Development
+
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2) Run the Worker locally
+### 2. Run the Worker locally
 
 ```bash
 npm run dev
 ```
 
-Wrangler command equivalent:
+Or using Wrangler directly:
 
 ```bash
 npx wrangler dev
 ```
 
-### 3) Run tests
+### 3. Run test suite
 
 ```bash
-npm run test
+npm test
 ```
 
-## CORS Configuration
+Executes 7 unit and integration tests verifying all routes, 404 handling, 405 method guards, CORS preflight headers, and RFC-compliant HEAD responses.
 
-The Worker reads `ALLOWED_ORIGINS` from environment variables and only sets `Access-Control-Allow-Origin` when the request `Origin` matches one of the allowed entries.
+---
 
-Example (comma-separated):
+## 🌐 CORS Configuration
+
+The Worker inspects the incoming `Origin` against `ALLOWED_ORIGINS` (comma-separated):
 
 ```env
 ALLOWED_ORIGINS=https://www.chhatreshkhatri.com,http://localhost:4321
 ```
 
-For local dev, you can define this in a `.dev.vars` file used by Wrangler.
+For local testing with Wrangler, configure this in your `.dev.vars` file.
 
-## Deploy
+---
+
+## 🚢 Deployment
+
+Deploy to Cloudflare edge network:
 
 ```bash
 npm run deploy
 ```
 
-Wrangler command equivalent:
-
-```bash
-npx wrangler deploy
-```
-
-If you change bindings in `wrangler.jsonc`, regenerate types:
+Regenerate Cloudflare Worker type bindings:
 
 ```bash
 npm run cf-typegen
 ```
 
-## Frontend Integration (Astro)
+---
 
-The frontend repository is checked out locally at:
+## 🔗 Frontend Integration
 
-`d:\Code\Projects\astro-portfolio`
+In the [astro-portfolio](https://github.com/ChhatreshKhatri/astro-portfolio) frontend:
 
-In that repo:
+1. Configure `PUBLIC_API_URL` in `.env`:
+   ```env
+   PUBLIC_API_URL=http://127.0.0.1:8787
+   ```
+2. The frontend fetches data server-side via `src/services/api.ts` with zero client-side layout shifts and automatic edge caching.
 
-- API calls are centralized in `src/services/api.ts`
-- Endpoints consumed are `/home`, `/about`, and `/projects`
-- Set `PUBLIC_API_URL` in frontend `.env` to this API base URL
+---
 
-Example frontend `.env`:
+## 📚 Resources
 
-```env
-PUBLIC_API_URL=http://127.0.0.1:8787
-```
-
-## API Quick Check
-
-```
-http://127.0.0.1:8787/home
-http://127.0.0.1:8787/about
-http://127.0.0.1:8787/projects
-```
-
-## Notes
-
-- `wrangler.jsonc` currently has `workers_dev: false`; production traffic should use configured routes/custom domain.
-- Current test file appears scaffolded from a default template and may not reflect current API responses.
-- Cloudflare Workers docs: https://developers.cloudflare.com/workers/
-- Cloudflare Workers limits: https://developers.cloudflare.com/workers/platform/limits/
+- [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/)
+- [Cloudflare Workers Limits & Quotas](https://developers.cloudflare.com/workers/platform/limits/)
+- [Wrangler Configuration](https://developers.cloudflare.com/workers/wrangler/configuration/)
