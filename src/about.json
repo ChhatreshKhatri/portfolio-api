@@ -1,7 +1,7 @@
 {
 	"content": {
 		"title": "Professional Summary",
-		"text": "Hi there! I'm Chhatresh Khatri, a Software Engineer at LTM Limited and a passionate Full-Stack Developer with 3+ years of professional experience. I specialize in building high-performance, SEO-optimized web applications using Next.js 15+ and React, paired with robust and scalable backend architectures using Node.js, Express, and GCP. I am deeply experienced in enterprise automation, state management, and modern development workflows powered by Agentic AI. Driven, self-motivated, and collaborative, I am dedicated to delivering clean, modular code and visually stunning user experiences."
+		"text": "Hi there! I'm Chhatresh Khatri, a Software Engineer at LTM Limited and a passionate Full-Stack Developer with 3+ years of professional experience. I specialize in building high-performance, SEO-optimized web applications using Next.js 15+ and React, paired with robust and scalable backend architectures using .NET Core, Node.js, Express, and Cloudflare/GCP. I am deeply experienced in enterprise automation, state management, and modern development workflows powered by Agentic AI. Driven, self-motivated, and collaborative, I am dedicated to delivering clean, modular code and visually stunning user experiences."
 	},
 	"experience": [
 		{
@@ -14,23 +14,23 @@
 				{
 					"name": "AI Sales Assistant",
 					"details": [
-						"Engineered an AI-driven web app using Next.js 16+ and Tailwind CSS v4; integrated AskPG AI/ML APIs to analyze PDFs/PPTs for sales performance improvements and feedback.",
-						"Developed a Voice Roleplay AI for rehearsal and interactive AI Chat interface; 2x sprint velocity leveraging GitHub Copilot for 100% AI-driven code/test generation and Sonar code smell fixes."
+						"Engineered an AI-driven sales enablement application using Next.js 16+ and Tailwind CSS v4; integrated AskPG AI/ML APIs to analyze complex PDF/PPT collateral for dynamic feedback.",
+						"Developed interactive Voice Roleplay AI and responsive conversational chat interfaces; accelerated sprint velocity leveraging GitHub Copilot and Agentic AI workflows."
 					]
 				},
 				{
 					"name": "7NOW Web Redesign",
 					"details": [
-						"Built a modern web application using Next.js 15+ and Tailwind CSS v4, leveraging SSG, ISR, and SSR alongside multitier sitemap generation and dynamic metadata for SEO performance.",
-						"Architected core functionality using Redux Toolkit, RTK Query, and Context API for robust state management, alongside REST API integration and dynamic routing for a seamless user experience.",
-						"Accelerated development via Windsurf AI (Cascade) and Amazon Q, utilizing agentic AI for deep codebase refactoring, optimized image loading, and rapid UI prototyping to boost efficiency."
+						"Built a modern enterprise web application using Next.js 15+ and Tailwind CSS v4, leveraging SSG, ISR, and SSR alongside multitier sitemap generation and dynamic metadata for optimal SEO performance.",
+						"Architected core application state using Redux Toolkit, RTK Query, and Context API for robust caching, alongside REST API integration and dynamic routing for seamless user journeys.",
+						"Accelerated development via Windsurf AI (Cascade) and Amazon Q, utilizing agentic AI for deep codebase refactoring, optimized image loading, and rapid UI prototyping."
 					]
 				},
 				{
 					"name": "CITI EE Automation",
 					"details": [
-						"Developed automation solutions using Xceptor for diverse file formats (PDF, CSV, XLSX) and enhanced workflows through translation tables, message procedures, and process orchestration.",
-						"Eliminated manual, error-prone processes by replacing Python scripts and VBA macros with scalable Xceptor automation, reducing task time from 1 hour to 5–6 minutes, while increasing accuracy and reducing tool dependency."
+						"Developed robust automation workflows using Xceptor for complex file formats (PDF, CSV, XLSX), enhancing enterprise pipelines through translation tables and process orchestration.",
+						"Eliminated manual, error-prone operational bottlenecks by replacing legacy Python scripts and VBA macros with scalable Xceptor pipelines, reducing task processing time from 60 minutes to 5–6 minutes (~90% reduction)."
 					]
 				}
 			]
@@ -67,7 +67,7 @@
 		},
 		{
 			"title": "Alibaba Cloud Low-Code Development Contest 2022",
-			"description": "2nd Position among 2,043 Participants",
+			"description": "2nd Position among 2,043 Participants Worldwide",
 			"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg",
 			"url": "https://www.alibabacloud.com/blog/598754",
 			"linkText": "Announcement",
@@ -78,6 +78,16 @@
 		{
 			"title": "Languages",
 			"skills": [
+				{
+					"name": "JavaScript",
+					"color": "#f7df1e",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/JavaScript.svg"
+				},
+				{
+					"name": "TypeScript",
+					"color": "#3178c6",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+				},
 				{
 					"name": "Java",
 					"color": "#437291",
@@ -97,31 +107,21 @@
 					"name": "CSS3",
 					"color": "#1172B8",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/CSS.svg"
-				},
-				{
-					"name": "JavaScript",
-					"color": "#f7df1e",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/JavaScript.svg"
-				},
-				{
-					"name": "TypeScript",
-					"color": "#3178c6",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
 				}
 			]
 		},
 		{
-			"title": "Framework & Libraries",
+			"title": "Frontend & Core Frameworks",
 			"skills": [
-				{
-					"name": "React.js",
-					"color": "#61DAFB",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
-				},
 				{
 					"name": "Next.js",
 					"color": "#000000",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "React.js",
+					"color": "#61DAFB",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
 				},
 				{
 					"name": "Redux Toolkit",
@@ -134,6 +134,21 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Astro.svg"
 				},
 				{
+					"name": "Tailwind CSS v4",
+					"color": "#38B2AC",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+				},
+				{
+					"name": "Bootstrap",
+					"color": "#7952B3",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Bootstrap.svg"
+				}
+			]
+		},
+		{
+			"title": "Backend, Cloud & Databases",
+			"skills": [
+				{
 					"name": "Node.js",
 					"color": "#339933",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Node.svg"
@@ -144,24 +159,14 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
 				},
 				{
-					"name": "Bootstrap",
-					"color": "#7952B3",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Bootstrap.svg"
-				},
-				{
-					"name": "Tailwind CSS v4",
-					"color": "#38B2AC",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
-				}
-			]
-		},
-		{
-			"title": "Tools & Platforms",
-			"skills": [
-				{
 					"name": "MongoDB",
 					"color": "#47A248",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
+				},
+				{
+					"name": "Cloudflare",
+					"color": "#F38020",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
 				},
 				{
 					"name": "Azure",
@@ -169,10 +174,55 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
 				},
 				{
-					"name": "Postman",
-					"color": "#FF6C37",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Postman.svg"
+					"name": "Google Cloud (GCP)",
+					"color": "#4285F4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GoogleCloud.svg"
 				},
+				{
+					"name": "Alibaba Cloud",
+					"color": "#FF6A0A",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+				}
+			]
+		},
+		{
+			"title": "Agentic AI & Productivity",
+			"skills": [
+				{
+					"name": "Antigravity",
+					"color": "#4285F4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Antigravity.svg"
+				},
+				{
+					"name": "Cursor AI",
+					"color": "#18181B",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/CursorAI.svg"
+				},
+				{
+					"name": "Claude",
+					"color": "#CC785C",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Claude.svg"
+				},
+				{
+					"name": "ChatGPT",
+					"color": "#10A37F",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/ChatGPT.svg"
+				},
+				{
+					"name": "Gemini",
+					"color": "#4E82EE",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Gemini.svg"
+				},
+				{
+					"name": "Microsoft 365 Copilot",
+					"color": "#0078D4",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Microsoft365Copilot.svg"
+				}
+			]
+		},
+		{
+			"title": "Tools & Platforms",
+			"skills": [
 				{
 					"name": "Git",
 					"color": "#F05032",
@@ -189,80 +239,30 @@
 					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHubActions.svg"
 				},
 				{
+					"name": "Postman",
+					"color": "#FF6C37",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Postman.svg"
+				},
+				{
 					"name": "Vercel",
 					"color": "#000000",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Vercel.svg"
 				},
 				{
-					"name": "Figma",
-					"color": "#F24E1E",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Figma.svg"
-				},
-				{
-					"name": "Cloudflare",
-					"color": "#F38020",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
-				},
-				{
-					"name": "Alibaba Cloud",
-					"color": "#FF6A0A",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
-				},
-				{
-					"name": "Google Cloud (GCP)",
-					"color": "#4285F4",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/GoogleCloud.svg"
-				},
-				{
 					"name": "VS Code",
 					"color": "#007ACC",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/VSCode.svg"
-				}
-			]
-		},
-		{
-			"title": "Agentic AI",
-			"skills": [
-				{
-					"name": "ChatGPT",
-					"color": "#10A37F",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/ChatGPT.svg"
 				},
 				{
-					"name": "Claude",
-					"color": "#CC785C",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Claude.svg"
-				},
-				{
-					"name": "Gemini",
-					"color": "#4E82EE",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Gemini.svg"
-				},
-				{
-					"name": "Microsoft 365 Copilot",
-					"color": "#0078D4",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Microsoft365Copilot.svg"
-				},
-				{
-					"name": "Cursor AI",
-					"color": "#18181B",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/CursorAI.svg"
-				},
-				{
-					"name": "Antigravity",
-					"color": "#4285F4",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Antigravity.svg"
+					"name": "Figma",
+					"color": "#F24E1E",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Figma.svg"
 				}
 			]
 		},
 		{
 			"title": "Operating Systems",
 			"skills": [
-				{
-					"name": "Windows",
-					"color": "#0078D6",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Windows.svg"
-				},
 				{
 					"name": "Linux",
 					"color": "#FCC624",
@@ -272,6 +272,11 @@
 					"name": "Ubuntu",
 					"color": "#E95420",
 					"icon": "https://cdn.chhatreshkhatri.com/icons/Ubuntu.svg"
+				},
+				{
+					"name": "Windows",
+					"color": "#0078D6",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Windows.svg"
 				}
 			]
 		}

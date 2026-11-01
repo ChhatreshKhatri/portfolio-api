@@ -1,13 +1,15 @@
 {
 	"intro": "Hi! I'm Chhatresh Khatri",
-	"content": "Software Engineer with 3+ years of experience specializing in high-performance web applications (Next.js, React) and scalable backend solutions (Node.js, Express, GCP). Proven track record of optimizing workflows, architecting robust state management systems, and leveraging Agentic AI to accelerate software delivery. A passionate problem-solver who thrives on building seamless user experiences and cutting-edge web automation.",
+	"content": "Full-Stack Software Engineer with 3+ years of experience building scalable web applications, cloud-native systems, and AI-powered products. Experienced in Next.js, React, TypeScript, .NET Core, Node.js, and Google Cloud. Focused on solving complex engineering problems through reliable architecture, intelligent automation, and exceptional user experiences.",
 	"pic": "https://cdn.chhatreshkhatri.com/images/ChhatreshKhatri.webp",
 	"roles": [
-		"Software Engineer",
-		"Agentic AI Enthusiast",
-		"Full-Stack Developer",
-		"Next.js Specialist",
-		"React.js Developer"
+		"Full-Stack Software Engineer",
+		"AI Product Builder",
+		"Cloud & Data Systems Engineer",
+		"Next.js & React Specialist",
+		"GCP Cloud Solutions Architect",
+		".NET & Node.js Developer",
+		"Enterprise Automation Engineer"
 	],
 	"stats": [
 		{
@@ -16,14 +18,14 @@
 		},
 		{
 			"value": "10+",
-			"label": "Projects Delivered"
+			"label": "Projects Built"
 		},
 		{
-			"value": "85%",
-			"label": "Workflow Acceleration"
+			"value": "90%",
+			"label": "Processing Time Reduction"
 		},
 		{
-			"value": "2nd",
+			"value": "2nd Place",
 			"label": "Alibaba Cloud Contest"
 		}
 	],
@@ -37,12 +39,16 @@
 			"icon": "https://cdn.chhatreshkhatri.com/icons/React.svg"
 		},
 		{
-			"name": "Tailwind CSS v4",
-			"icon": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+			"name": "Google Cloud (GCP)",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/GoogleCloud.svg"
 		},
 		{
 			"name": "TypeScript",
 			"icon": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+		},
+		{
+			"name": "Tailwind CSS v4",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
 		},
 		{
 			"name": "Agentic AI",
@@ -53,12 +59,187 @@
 		{
 			"type": "Resume",
 			"url": "https://drive.google.com/file/d/1i_gAK3PxDoMok4g5XEh0KTaD7Dm-JRR_/view?usp=sharing",
-			"icon": "https://cdn.chhatreshkhatri.com/icons/Resume.svg"
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+		},
+		{
+			"type": "Email Me Directly",
+			"url": "mailto:ck@chhatreshkhatri.com",
+			"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
 		},
 		{
 			"type": "Social Links",
 			"url": "https://links.chhatreshkhatri.com/",
 			"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+		}
+	],
+	"featuredProjects": [
+		{
+			"heading": "FarmConnect",
+			"subHeading": "Full-Stack Livestock Management Platform",
+			"featured": true,
+			"description": "A comprehensive agricultural platform that streamlines livestock health tracking, automated inventory management, and real-time resource coordination across farming communities.",
+			"highlightsList": [
+				"Problem: Disconnected livestock health tracking and manual inventory audits across regional farm operations.",
+				"Solution: Architected modular .NET Core RESTful endpoints with Entity Framework Core and normalized SQL Server schema for audit logging.",
+				"Outcome: Instant livestock record retrieval, scheduled medical alerts, and SSR-optimized dashboard rendering in Next.js 15."
+			],
+			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://farmconnect.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/ChhatreshKhatri/FarmConnect-Next.jsApp",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": ".NET Core",
+					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
+				},
+				{
+					"name": "Next.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "SQL Server",
+					"url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
+				},
+				{
+					"name": "Azure",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
+				}
+			]
+		},
+		{
+			"heading": "DLouck",
+			"subHeading": "Cloud Asset Management Platform",
+			"featured": true,
+			"description": "A modern asset management platform powered by Cloudflare R2 storage and built with Next.js. Features a secure admin control panel with lightning-fast upload/delete capabilities, instant search, dynamic folder management, and full dark/light theme support.",
+			"highlightsList": [
+				"Problem: High cloud egress bandwidth fees and sluggish multi-file synchronization with conventional cloud buckets.",
+				"Solution: Integrated Cloudflare R2 object storage with signed edge URLs for direct, low-latency browser uploads.",
+				"Outcome: Granular asset tagging, instant client search, zero egress costs, and sub-second asset delivery."
+			],
+			"image": "https://cdn.chhatreshkhatri.com/images/Dlouck.webp",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://dlouck.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/ChhatreshKhatri/DLouck",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "Next.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+				},
+				{
+					"name": "React",
+					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "TypeScript",
+					"url": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+				},
+				{
+					"name": "Cloudflare",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
+				},
+				{
+					"name": "Tailwind CSS",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+				}
+			]
+		},
+		{
+			"heading": "Visits Counter",
+			"subHeading": "Real-Time Custom SVG Visit Badges",
+			"featured": true,
+			"description": "A real-time web traffic tracking application built with MongoDB, Express, React, and Tailwind CSS. Features a webpage for customizing and generating dynamic SVG visit badges for integration into GitHub READMEs and websites.",
+			"highlightsList": [
+				"Problem: Need for a frictionless, zero-setup visit tracking badge for developers' GitHub repositories and personal websites.",
+				"Solution: Engineered high-concurrency Node.js/Express API that calculates hits and dynamically compiles parameterized SVG graphics.",
+				"Outcome: Serves live hit counters with low-latency edge caching across hundreds of open-source profile views."
+			],
+			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
+			"links": [
+				{
+					"type": "Live Link",
+					"url": "https://visits.chhatreshkhatri.com/",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+				},
+				{
+					"type": "GitHub Repo",
+					"url": "https://github.com/Chhatreshkhatri/visits-counter",
+					"icon": "https://cdn.chhatreshkhatri.com/icons/GitHub.svg"
+				}
+			],
+			"tags": [
+				{
+					"name": "Express.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
+				},
+				{
+					"name": "React",
+					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+				},
+				{
+					"name": "Node.js",
+					"url": "https://cdn.chhatreshkhatri.com/icons/Node.svg"
+				},
+				{
+					"name": "MongoDB",
+					"url": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
+				}
+			]
+		}
+	],
+	"enterpriseHighlight": {
+		"badge": "Enterprise Engineering",
+		"title": "Software Engineer at LTM Limited",
+		"description": "Building scalable web applications, cloud-native backend systems, and enterprise automation solutions at LTM Limited. Focused on modernizing workflows, improving system performance, and delivering reliable software solutions.",
+		"linkText": "Full Career Timeline",
+		"linkUrl": "/about",
+		"highlights": [
+			"Enterprise Web Apps",
+			"Cloud & Backend Systems",
+			"Workflow Automation"
+		]
+	},
+	"capabilities": [
+		{
+			"icon": "💻",
+			"title": "Full-Stack Web Engineering",
+			"description": "Architecting responsive, accessible, and SEO-optimized web applications with Next.js (App Router, SSG/ISR/SSR), React 19, TypeScript, and modern state management (Redux Toolkit, Context API).",
+			"tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+		},
+		{
+			"icon": "☁️",
+			"title": "Cloud Infrastructure & Data Systems",
+			"description": "Architecting resilient multi-cloud infrastructure and distributed data systems across Google Cloud Platform, Cloudflare Edge networks, and Vercel. Engineering data solutions with BigQuery, Cloud Spanner, and Cloud SQL, alongside GKE container orchestration and Airflow workflow pipelines.",
+			"tags": ["Google Cloud (GCP)", "Cloudflare Edge", "BigQuery", "GKE", "Cloud Spanner", "Airflow"]
+		},
+		{
+			"icon": "🤖",
+			"title": "AI Product Engineering & Agentic Workflows",
+			"description": "Building production AI systems and developer workflows leveraging the Model Context Protocol (MCP). Deploying MCP integrations including Figma-to-Code generation, Atlassian MCP for bidirectional Jira sprints and Confluence documentation, and GitHub MCP for automated PR creation, reviews, and test triage.",
+			"tags": ["Model Context Protocol (MCP)", "Figma to Code", "Atlassian MCP", "GitHub MCP", "Agentic AI"]
+		},
+		{
+			"icon": "⚡",
+			"title": "Enterprise Automation & Performance",
+			"description": "Orchestrating enterprise automation workflows (reducing critical turnaround time by 90%), advanced technical SEO architecture with JSON-LD structured data, and event-driven product tracking (Mixpanel, custom analytics). Optimizing Core Web Vitals for maximum crawlability and sub-second edge performance.",
+			"tags": ["Workflow Pipelines", "Technical SEO", "JSON-LD", "Mixpanel Tracking", "Core Web Vitals", "90% Automation Cut"]
 		}
 	]
 }

@@ -7,7 +7,13 @@
 		{
 			"heading": "FarmConnect",
 			"subHeading": "Full-Stack Livestock Management Platform",
-			"description": "Built with .NET Core Web API, Next.js 15, and SQL Server, FarmConnect is a comprehensive agricultural platform that streamlines health tracking, automated inventory management, and real-time resource coordination across farming communities.",
+			"featured": true,
+			"description": "A comprehensive agricultural platform that streamlines livestock health tracking, automated inventory management, and real-time resource coordination across farming communities.",
+			"highlightsList": [
+				"Problem: Disconnected livestock health tracking and manual inventory audits across regional farm operations.",
+				"Solution: Architected modular .NET Core RESTful endpoints with Entity Framework Core and normalized SQL Server schema for audit logging.",
+				"Outcome: Instant livestock record retrieval, scheduled medical alerts, and SSR-optimized dashboard rendering in Next.js 15."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
 			"links": [
 				{
@@ -43,7 +49,13 @@
 		{
 			"heading": "DLouck",
 			"subHeading": "Cloud Asset Management Platform",
-			"description": "A modern asset management platform powered by Cloudflare R2 storage and built with Next.js. Features a secure admin control panel with lightning-fast upload/delete capabilities, instant search, dynamic folder management, and full dark/light theme support.",
+			"featured": true,
+			"description": "A modern cloud asset management platform powered by Cloudflare R2 storage. Features a secure admin control panel with lightning-fast uploads, instant global search, and dynamic folder hierarchies with dark/light theme support.",
+			"highlightsList": [
+				"Problem: High cloud egress bandwidth fees and sluggish multi-file synchronization with conventional cloud buckets.",
+				"Solution: Integrated Cloudflare R2 object storage with signed edge URLs for direct, low-latency browser uploads.",
+				"Outcome: Granular asset tagging, instant client search, zero egress costs, and sub-second asset delivery."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/Dlouck.webp",
 			"links": [
 				{
@@ -83,7 +95,13 @@
 		{
 			"heading": "Visits Counter",
 			"subHeading": "Real-Time Custom SVG Visit Badges",
-			"description": "A real-time web traffic tracking application built with MongoDB, Express, React, and Tailwind CSS. Features a webpage for customizing and generating dynamic SVG visit badges for integration into GitHub READMEs and websites.",
+			"featured": true,
+			"description": "A real-time web traffic tracking service that dynamically compiles parameterized SVG visit badges for seamless integration into GitHub READMEs and personal websites.",
+			"highlightsList": [
+				"Problem: Need for a frictionless, zero-setup visit tracking badge for developers' GitHub repositories and personal websites.",
+				"Solution: Engineered high-concurrency Node.js/Express API that calculates hits and dynamically compiles parameterized SVG graphics.",
+				"Outcome: Serves live hit counters with low-latency edge caching across hundreds of open-source profile views."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
 			"links": [
 				{
@@ -123,7 +141,13 @@
 		{
 			"heading": "Ramaa Creations",
 			"subHeading": "E-Commerce Jewellery Portal (Global Award Winner)",
-			"description": "Built during the Alibaba Cloud Low-Code Development Contest 2022 using AliCMS and Alibaba Cloud cloud infrastructure. Achieved global 2nd position out of 2,043 participating developers worldwide.",
+			"featured": true,
+			"description": "Built during the Alibaba Cloud Low-Code Development Contest 2022 using AliCMS and Alibaba Cloud infrastructure. Achieved global 2nd position out of 2,043 participating developers worldwide.",
+			"highlightsList": [
+				"Problem: Rapid deployment of a performant, omnichannel luxury jewellery e-commerce storefront under strict hackathon deadlines.",
+				"Solution: Utilized AliCMS structured schemas, Alibaba Cloud CDN edge caching, and serverless compute pipelines.",
+				"Outcome: Global 2nd Place Winner out of 2,043 developers internationally, evaluated on architecture, UX, and performance."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
 			"links": [
 				{
@@ -155,7 +179,11 @@
 		{
 			"heading": "StackOverflow Clone",
 			"subHeading": "Q&A Community Forum with AI Chatbot",
+			"featured": false,
 			"description": "A full-featured developer question-and-answer platform built on the MERN stack. Includes JWT user authentication, real-time reputation and voting systems, keyword-based search, and an integrated Kommunicate live chatbot.",
+			"highlightsList": [
+				"Engineered developer Q&A forum with JWT auth, vote tallying, keyword search, and integrated live chatbot."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
 			"links": [
 				{
@@ -195,7 +223,11 @@
 		{
 			"heading": "Amazon Clone",
 			"subHeading": "E-Commerce Shopping Portal",
+			"featured": false,
 			"description": "A full-featured e-commerce web application featuring Firebase user authentication, dynamic shopping cart management, detailed product checkout workflows, and integrated Stripe payment processing.",
+			"highlightsList": [
+				"Built full e-commerce checkout flow with Firebase user authentication, dynamic cart state, and Stripe payment processing."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/AmazonClone.webp",
 			"links": [
 				{
@@ -227,7 +259,11 @@
 		{
 			"heading": "MyChat",
 			"subHeading": "Real-Time Android Messaging Application",
+			"featured": false,
 			"description": "A responsive Android chat application allowing users to communicate seamlessly via real-time messaging on mobile devices. Features Firebase database backend, intuitive UI design, and instant message synchronization.",
+			"highlightsList": [
+				"Developed native Android instant messenger with real-time websocket synchronization and push notifications."
+			],
 			"image": "https://cdn.chhatreshkhatri.com/images/MyChat.webp",
 			"links": [
 				{
