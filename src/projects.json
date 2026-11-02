@@ -1,291 +1,180 @@
 {
-	"content": {
-		"title": "Projects",
-		"description": "Here is a curated showcase of my full-stack web applications, cloud platforms, and award-winning projects."
-	},
-	"projects": [
-		{
-			"heading": "FarmConnect",
-			"subHeading": "Full-Stack Livestock Management Platform",
-			"featured": true,
-			"description": "A comprehensive agricultural platform that streamlines livestock health tracking, automated inventory management, and real-time resource coordination across farming communities.",
-			"highlightsList": [
-				"Problem: Disconnected livestock health tracking and manual inventory audits across regional farm operations.",
-				"Solution: Architected modular .NET Core RESTful endpoints with Entity Framework Core and normalized SQL Server schema for audit logging.",
-				"Outcome: Instant livestock record retrieval, scheduled medical alerts, and SSR-optimized dashboard rendering in Next.js 15."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
-			"links": [
-				{
-					"type": "Live Link",
-					"url": "https://farmconnect.chhatreshkhatri.com/",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/ChhatreshKhatri/FarmConnect-Next.jsApp",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": ".NET Core",
-					"url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
-				},
-				{
-					"name": "Next.js",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
-				},
-				{
-					"name": "SQL Server",
-					"url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
-				},
-				{
-					"name": "Azure",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
-				}
-			]
-		},
-		{
-			"heading": "DLouck",
-			"subHeading": "Cloud Asset Management Platform",
-			"featured": true,
-			"description": "A modern cloud asset management platform powered by Cloudflare R2 storage. Features a secure admin control panel with lightning-fast uploads, instant global search, and dynamic folder hierarchies with dark/light theme support.",
-			"highlightsList": [
-				"Problem: High cloud egress bandwidth fees and sluggish multi-file synchronization with conventional cloud buckets.",
-				"Solution: Integrated Cloudflare R2 object storage with signed edge URLs for direct, low-latency browser uploads.",
-				"Outcome: Granular asset tagging, instant client search, zero egress costs, and sub-second asset delivery."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/Dlouck.webp",
-			"links": [
-				{
-					"type": "Live Link",
-					"url": "https://dlouck.com/",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/ChhatreshKhatri/DLouck",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "Next.js",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
-				},
-				{
-					"name": "React",
-					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
-				},
-				{
-					"name": "TypeScript",
-					"url": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
-				},
-				{
-					"name": "Cloudflare",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
-				},
-				{
-					"name": "Tailwind CSS",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
-				}
-			]
-		},
-		{
-			"heading": "Visits Counter",
-			"subHeading": "Real-Time Custom SVG Visit Badges",
-			"featured": true,
-			"description": "A real-time web traffic tracking service that dynamically compiles parameterized SVG visit badges for seamless integration into GitHub READMEs and personal websites.",
-			"highlightsList": [
-				"Problem: Need for a frictionless, zero-setup visit tracking badge for developers' GitHub repositories and personal websites.",
-				"Solution: Engineered high-concurrency Node.js/Express API that calculates hits and dynamically compiles parameterized SVG graphics.",
-				"Outcome: Serves live hit counters with low-latency edge caching across hundreds of open-source profile views."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
-			"links": [
-				{
-					"type": "Live Link",
-					"url": "https://visits.chhatreshkhatri.com/",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/Chhatreshkhatri/visits-counter",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "MongoDB",
-					"url": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
-				},
-				{
-					"name": "Express.js",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
-				},
-				{
-					"name": "React",
-					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
-				},
-				{
-					"name": "Tailwind CSS",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
-				},
-				{
-					"name": "SVG Badge",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Image.svg"
-				}
-			]
-		},
-		{
-			"heading": "Ramaa Creations",
-			"subHeading": "E-Commerce Jewellery Portal (Global Award Winner)",
-			"featured": true,
-			"description": "Built during the Alibaba Cloud Low-Code Development Contest 2022 using AliCMS and Alibaba Cloud infrastructure. Achieved global 2nd position out of 2,043 participating developers worldwide.",
-			"highlightsList": [
-				"Problem: Rapid deployment of a performant, omnichannel luxury jewellery e-commerce storefront under strict hackathon deadlines.",
-				"Solution: Utilized AliCMS structured schemas, Alibaba Cloud CDN edge caching, and serverless compute pipelines.",
-				"Outcome: Global 2nd Place Winner out of 2,043 developers internationally, evaluated on architecture, UX, and performance."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
-			"links": [
-				{
-					"type": "Blog Link",
-					"url": "https://www.alibabacloud.com/blog/598812",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "Winner List",
-					"url": "https://www.alibabacloud.com/blog/598754",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "Alicms",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Alicms.svg"
-				},
-				{
-					"name": "Alibaba Cloud",
-					"url": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
-				},
-				{
-					"name": "Low-Code",
-					"url": "https://cdn.chhatreshkhatri.com/icons/LowCode.svg"
-				}
-			]
-		},
-		{
-			"heading": "StackOverflow Clone",
-			"subHeading": "Q&A Community Forum with AI Chatbot",
-			"featured": false,
-			"description": "A full-featured developer question-and-answer platform built on the MERN stack. Includes JWT user authentication, real-time reputation and voting systems, keyword-based search, and an integrated Kommunicate live chatbot.",
-			"highlightsList": [
-				"Engineered developer Q&A forum with JWT auth, vote tallying, keyword search, and integrated live chatbot."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/StackOverflowClone.webp",
-			"links": [
-				{
-					"type": "Live Link",
-					"url": "https://soclone.chhatreshkhatri.com/",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/Chhatreshkhatri/stack-overflow-clone",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "MongoDB",
-					"url": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
-				},
-				{
-					"name": "Express.js",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
-				},
-				{
-					"name": "React",
-					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
-				},
-				{
-					"name": "Node.js",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Node.svg"
-				},
-				{
-					"name": "Kommunicate",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Kommunicate.svg"
-				}
-			]
-		},
-		{
-			"heading": "Amazon Clone",
-			"subHeading": "E-Commerce Shopping Portal",
-			"featured": false,
-			"description": "A full-featured e-commerce web application featuring Firebase user authentication, dynamic shopping cart management, detailed product checkout workflows, and integrated Stripe payment processing.",
-			"highlightsList": [
-				"Built full e-commerce checkout flow with Firebase user authentication, dynamic cart state, and Stripe payment processing."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/AmazonClone.webp",
-			"links": [
-				{
-					"type": "Live Link",
-					"url": "https://amazonclone.chhatreshkhatri.com/",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				},
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/Chhatreshkhatri/amazon-clone",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "React",
-					"url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
-				},
-				{
-					"name": "Firebase",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Firebase.svg"
-				},
-				{
-					"name": "Stripe",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Stripe.svg"
-				}
-			]
-		},
-		{
-			"heading": "MyChat",
-			"subHeading": "Real-Time Android Messaging Application",
-			"featured": false,
-			"description": "A responsive Android chat application allowing users to communicate seamlessly via real-time messaging on mobile devices. Features Firebase database backend, intuitive UI design, and instant message synchronization.",
-			"highlightsList": [
-				"Developed native Android instant messenger with real-time websocket synchronization and push notifications."
-			],
-			"image": "https://cdn.chhatreshkhatri.com/images/MyChat.webp",
-			"links": [
-				{
-					"type": "GitHub Repo",
-					"url": "https://github.com/Chhatreshkhatri/MyChat",
-					"icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
-				}
-			],
-			"tags": [
-				{
-					"name": "Android",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Android.svg"
-				},
-				{
-					"name": "Java",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Java.svg"
-				},
-				{
-					"name": "Firebase",
-					"url": "https://cdn.chhatreshkhatri.com/icons/Firebase.svg"
-				}
-			]
-		}
-	]
+  "content": {
+    "title": "Projects",
+    "description": "Here is a curated showcase of my full-stack web applications, cloud platforms, and award-winning projects."
+  },
+  "projects": [
+    {
+      "heading": "FarmConnect",
+      "subHeading": "Full-Stack Livestock Management Platform",
+      "featured": true,
+      "description": "A comprehensive agricultural platform that streamlines livestock health tracking, automated inventory management, and real-time resource coordination across farming communities.",
+      "highlightsList": [
+        "Problem: Disconnected livestock health tracking and manual inventory audits across regional farm operations.",
+        "Solution: Architected modular .NET Core RESTful endpoints with Entity Framework Core and normalized SQL Server schema for audit logging.",
+        "Outcome: Instant livestock record retrieval, scheduled medical alerts, and SSR-optimized dashboard rendering in Next.js 15."
+      ],
+      "image": "https://cdn.chhatreshkhatri.com/images/FarmConnect.webp",
+      "links": [
+        {
+          "type": "Live Link",
+          "url": "https://farmconnect.chhatreshkhatri.com/",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        },
+        {
+          "type": "GitHub Repo",
+          "url": "https://github.com/ChhatreshKhatri/FarmConnect-Next.jsApp",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        }
+      ],
+      "tags": [
+        {
+          "name": ".NET Core",
+          "url": "https://cdn.chhatreshkhatri.com/icons/DotNET.svg"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+        },
+        {
+          "name": "SQL Server",
+          "url": "https://cdn.chhatreshkhatri.com/icons/MsSQL.svg"
+        },
+        {
+          "name": "Azure",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Azure.svg"
+        }
+      ]
+    },
+    {
+      "heading": "DLouck",
+      "subHeading": "Cloud Asset Management Platform",
+      "featured": true,
+      "description": "A modern cloud asset management platform powered by Cloudflare R2 storage. Features a secure admin control panel with lightning-fast uploads, instant global search, and dynamic folder hierarchies with dark/light theme support.",
+      "highlightsList": [
+        "Problem: High cloud egress bandwidth fees and sluggish multi-file synchronization with conventional cloud buckets.",
+        "Solution: Integrated Cloudflare R2 object storage with signed edge URLs for direct, low-latency browser uploads.",
+        "Outcome: Granular asset tagging, instant client search, zero egress costs, and sub-second asset delivery."
+      ],
+      "image": "https://cdn.chhatreshkhatri.com/images/Dlouck.webp",
+      "links": [
+        {
+          "type": "Live Link",
+          "url": "https://dlouck.com/",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        },
+        {
+          "type": "GitHub Repo",
+          "url": "https://github.com/ChhatreshKhatri/DLouck",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Next.js",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Next.svg"
+        },
+        {
+          "name": "React",
+          "url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://cdn.chhatreshkhatri.com/icons/TypeScript.svg"
+        },
+        {
+          "name": "Cloudflare",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Cloudflare.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+        }
+      ]
+    },
+    {
+      "heading": "Visits Counter",
+      "subHeading": "Real-Time Custom SVG Visit Badges",
+      "featured": true,
+      "description": "A real-time web traffic tracking service that dynamically compiles parameterized SVG visit badges for seamless integration into GitHub READMEs and personal websites.",
+      "highlightsList": [
+        "Problem: Need for a frictionless, zero-setup visit tracking badge for developers' GitHub repositories and personal websites.",
+        "Solution: Engineered high-concurrency Node.js/Express API that calculates hits and dynamically compiles parameterized SVG graphics.",
+        "Outcome: Serves live hit counters with low-latency edge caching across hundreds of open-source profile views."
+      ],
+      "image": "https://cdn.chhatreshkhatri.com/images/VisitsCounter.webp",
+      "links": [
+        {
+          "type": "Live Link",
+          "url": "https://visits.chhatreshkhatri.com/",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        },
+        {
+          "type": "GitHub Repo",
+          "url": "https://github.com/Chhatreshkhatri/visits-counter",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        }
+      ],
+      "tags": [
+        {
+          "name": "MongoDB",
+          "url": "https://cdn.chhatreshkhatri.com/icons/MongoDB.svg"
+        },
+        {
+          "name": "Express.js",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Express.svg"
+        },
+        {
+          "name": "React",
+          "url": "https://cdn.chhatreshkhatri.com/icons/React.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Tailwind.svg"
+        },
+        {
+          "name": "SVG Badge",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Image.svg"
+        }
+      ]
+    },
+    {
+      "heading": "Ramaa Creations",
+      "subHeading": "E-Commerce Jewellery Portal (Global Award Winner)",
+      "featured": true,
+      "description": "Built during the Alibaba Cloud Low-Code Development Contest 2022 using AliCMS and Alibaba Cloud infrastructure. Achieved global 2nd position out of 2,043 participating developers worldwide.",
+      "highlightsList": [
+        "Problem: Rapid deployment of a performant, omnichannel luxury jewellery e-commerce storefront under strict contest deadlines.",
+        "Solution: Utilized AliCMS structured schemas, Alibaba Cloud CDN edge caching, and serverless compute pipelines.",
+        "Outcome: Global 2nd Place Winner out of 2,043 developers internationally, evaluated on architecture, UX, and performance."
+      ],
+      "image": "https://cdn.chhatreshkhatri.com/images/RamaaCreations.webp",
+      "links": [
+        {
+          "type": "Blog Link",
+          "url": "https://www.alibabacloud.com/blog/598812",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        },
+        {
+          "type": "Winner List",
+          "url": "https://www.alibabacloud.com/blog/598754",
+          "icon": "https://cdn.chhatreshkhatri.com/icons/Link.svg"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Alicms",
+          "url": "https://cdn.chhatreshkhatri.com/icons/Alicms.svg"
+        },
+        {
+          "name": "Alibaba Cloud",
+          "url": "https://cdn.chhatreshkhatri.com/icons/AlibabaCloud.svg"
+        },
+        {
+          "name": "Low-Code",
+          "url": "https://cdn.chhatreshkhatri.com/icons/LowCode.svg"
+        }
+      ]
+    }
+  ]
 }

@@ -12,7 +12,7 @@ describe('Portfolio API worker', () => {
 		await waitOnExecutionContext(ctx);
 		expect(response.status).toBe(200);
 		const data = (await response.json()) as { intro: string };
-		expect(data.intro).toBe("Hi! I'm Chhatresh Khatri");
+		expect(data.intro).toBe("Building scalable products, cloud-native systems & AI-powered experiences.");
 	});
 
 	it('responds with about data (integration style)', async () => {
