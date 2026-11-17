@@ -69,7 +69,7 @@
     {
       "title": "AWS Certified AI Practitioner",
       "description": "Amazon Web Services Training and Certification",
-      "icon": "https://cdn.chhatreshkhatri.com/icons/AWS.svg",
+      "icon": "https://cdn.chhatreshkhatri.com/icons/AWSCertified.svg",
       "url": "https://www.credly.com/badges/fbdb1e51-753b-4e35-ac6a-c2898e868ff8",
       "linkText": "Verify Credential",
       "linkIcon": "https://cdn.chhatreshkhatri.com/icons/Link.svg",
@@ -77,7 +77,7 @@
     },
     {
       "title": "Microsoft Certified: Azure AI Fundamentals",
-      "description": "Microsoft Credentials",
+      "description": "Microsoft Training and Certification",
       "icon": "https://cdn.chhatreshkhatri.com/icons/MicrosoftCertified.svg",
       "url": "https://learn.microsoft.com/en-us/users/chhatreshkhatri-5518/credentials/50779a82dd8cd466",
       "linkText": "Verify Credential",
