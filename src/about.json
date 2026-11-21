@@ -12,6 +12,15 @@
       "badge": "Current Role",
       "projects": [
         {
+          "name": "Consumer Data Platform",
+          "details": [
+            "Upgraded legacy React 16 to 18 web apps and integrated the Global Design System (GDS) with standardized components and improved loading/error states; adopted Vitest to accelerate unit test execution.",
+            "Optimized BigQuery workflows (cross-DB federated queries, Cloud Spanner, Cloud SQL) and Airflow DAGs, replacing runtime aggregations with pre-aggregated tables to improve data-processing performance.",
+            "Improved API performance and release reliability through parallel query execution, CI/CD YAML optimization, enforcing SonarQube (85%+ coverage) under CAB governance, and Grafana/GCP log analysis for high-duration APIs.",
+            "Leveraged Figma, GitHub, and Atlassian MCP servers to accelerate design-to-code, PR reviews, agentic code generation, Jira analysis, and Confluence documentation."
+          ]
+        },
+        {
           "name": "AI Sales Assistant",
           "details": [
             "Engineered an AI-driven sales enablement application using Next.js 16+ and Tailwind CSS v4, integrating AskPG AI/ML models to dynamically analyze complex PDF/PPT product collateral.",
