@@ -1,5 +1,5 @@
 {
-  "intro": "Building scalable products, cloud-native systems & AI-powered experiences.",
+  "intro": "Product Builder & AI Engineer",
   "content": "Full-Stack Software Engineer specializing in Next.js, React, TypeScript, .NET, cloud infrastructure, and intelligent automation. Driven by clean architecture, resilient distributed systems, and modern AI workflows.",
   "pic": "https://cdn.chhatreshkhatri.com/images/ChhatreshKhatri.webp",
   "roles": [
@@ -216,50 +216,52 @@
   "capabilities": [
     {
       "icon": "💻",
-      "title": "Full-Stack Web Engineering",
-      "description": "Architecting responsive, accessible, and SEO-optimized web applications with Next.js (App Router, SSG/ISR/SSR), React 19, TypeScript, and modern state management (Redux Toolkit, Context API).",
+      "title": "Full-Stack Web Platforms",
+      "description": "Architecting end-to-end, high-performance web applications with Next.js (App Router, SSR/ISR), React 19, and TypeScript, backed by modular, type-safe RESTful APIs engineered in .NET Core, Java, and Node.js.",
       "tags": [
         "Next.js",
         "React",
         "TypeScript",
+        ".NET Core",
+        "Java",
+        "Node.js",
         "Tailwind CSS"
       ]
     },
     {
       "icon": "☁️",
-      "title": "Cloud Infrastructure & Data Systems",
-      "description": "Architecting resilient multi-cloud infrastructure and distributed data systems across Google Cloud Platform, Cloudflare Edge networks, and Vercel. Engineering data solutions with BigQuery, Cloud Spanner, and Cloud SQL, alongside GKE container orchestration and Airflow workflow pipelines.",
+      "title": "Cloud-Native & Distributed Data",
+      "description": "Architecting resilient multi-cloud architectures and distributed data pipelines across Google Cloud Platform, Microsoft Azure, and Cloudflare Edge. Designing high-throughput data solutions with BigQuery and SQL Server.",
       "tags": [
         "Google Cloud (GCP)",
+        "Microsoft Azure",
         "Cloudflare Edge",
         "BigQuery",
-        "GKE",
-        "Cloud Spanner",
-        "Airflow"
+        "SQL Server"
       ]
     },
     {
       "icon": "🤖",
-      "title": "AI Product Engineering & Agentic Workflows",
-      "description": "Building production AI systems and developer workflows leveraging the Model Context Protocol (MCP). Deploying MCP integrations including Figma-to-Code generation, Atlassian MCP for bidirectional Jira sprints and Confluence documentation, and GitHub MCP for automated PR creation, reviews, and test triage.",
+      "title": "AI Products & Agentic Workflows",
+      "description": "Building production AI systems and autonomous developer workflows leveraging the Model Context Protocol (MCP), LLM APIs (Gemini, Claude, OpenAI), and agentic orchestration for automated code generation, issue triage, and documentation.",
       "tags": [
+        "Agentic AI",
         "Model Context Protocol (MCP)",
-        "Figma to Code",
-        "Atlassian MCP",
-        "GitHub MCP",
-        "Agentic AI"
+        "LLM APIs",
+        "Prompt Architecture",
+        "Developer Tooling"
       ]
     },
     {
       "icon": "⚡",
-      "title": "Enterprise Automation & Performance",
-      "description": "Orchestrating enterprise automation workflows (reducing critical turnaround time by 90%), advanced technical SEO architecture with JSON-LD structured data, and event-driven product tracking (Mixpanel, custom analytics). Optimizing Core Web Vitals for maximum crawlability and sub-second edge performance.",
+      "title": "Enterprise Automation & Scale",
+      "description": "Orchestrating mission-critical enterprise workflow pipelines (slashing turnaround time by 90%), combined with edge-cached delivery, sub-second Core Web Vitals optimization, and real-time telemetry analytics.",
       "tags": [
-        "Workflow Pipelines",
-        "Technical SEO",
-        "JSON-LD",
-        "Mixpanel Tracking",
-        "Core Web Vitals"
+        "Workflow Automation",
+        "CI/CD Pipelines",
+        "Core Web Vitals",
+        "Edge Caching",
+        "Telemetry & Analytics"
       ]
     }
   ]
