@@ -16,7 +16,7 @@
           "details": [
             "Upgraded legacy React 16 to 18 web apps and integrated the Global Design System (GDS) with standardized components and improved loading/error states; adopted Vitest to accelerate unit test execution.",
             "Optimized BigQuery workflows (cross-DB federated queries, Cloud Spanner, Cloud SQL) and Airflow DAGs, replacing runtime aggregations with pre-aggregated tables to improve data-processing performance.",
-            "Improved API performance and release reliability through parallel query execution, CI/CD YAML optimization, enforcing SonarQube (85%+ coverage) under CAB governance, and Grafana/GCP log analysis for high-duration APIs.",
+            "Boosted API performance via parallel query execution and Grafana/GCP log analysis, and ensured release reliability through CI/CD YAML optimization and SonarQube (85%+ coverage) under CAB governance.",
             "Leveraged Figma, GitHub, and Atlassian MCP servers to accelerate design-to-code, PR reviews, agentic code generation, Jira analysis, and Confluence documentation."
           ]
         },
