@@ -217,9 +217,10 @@
     {
       "icon": "💻",
       "title": "Full-Stack Web Platforms",
-      "description": "Architecting end-to-end, high-performance web applications with Next.js (App Router, SSR/ISR), React 19, and TypeScript, backed by modular, type-safe RESTful APIs engineered in .NET Core, Java, and Node.js.",
+      "description": "Architecting end-to-end, high-performance web applications with Next.js (App Router, SSR/ISR), Astro.js, React 19, and TypeScript, backed by modular, type-safe RESTful APIs engineered in .NET Core, Java, and Node.js.",
       "tags": [
         "Next.js",
+        "Astro.js",
         "React",
         "TypeScript",
         ".NET Core",
@@ -231,11 +232,11 @@
     {
       "icon": "☁️",
       "title": "Cloud-Native & Distributed Data",
-      "description": "Architecting resilient multi-cloud architectures and distributed data pipelines across Google Cloud Platform, Microsoft Azure, and Cloudflare Edge. Designing high-throughput data solutions with BigQuery and SQL Server.",
+      "description": "Architecting resilient multi-cloud architectures and distributed data pipelines across Google Cloud Platform, Microsoft Azure, and Cloudflare. Designing high-throughput data solutions with BigQuery and SQL Server.",
       "tags": [
         "Google Cloud (GCP)",
         "Microsoft Azure",
-        "Cloudflare Edge",
+        "Cloudflare",
         "BigQuery",
         "SQL Server"
       ]
